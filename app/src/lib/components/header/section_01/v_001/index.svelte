@@ -607,7 +607,7 @@
 
                             <div class="lg:hidden rounded-lg bg-white shadow-md shadow-gray-700/50">
                                 {#each head as {id, slug, name}}
-                                    <a sveltekit:noscroll href='/rubric/{slug}' on:click={ () => buttonVisibleCatalog.update(invertToFalse) } class="flex flex-col bg-gradient-to-tr hover:bg-gradient-to-bl from-gray-500 via-gray-900 to-gray-700 border border-gray-200 p-4 text-center sm:border-r sm:border-l">
+                                    <a sveltekit:noscroll href='/shop/rubric/{slug}' on:click={ () => buttonVisibleCatalog.update(invertToFalse) } class="flex flex-col bg-gradient-to-tr hover:bg-gradient-to-bl from-gray-500 via-gray-900 to-gray-700 border border-gray-200 p-4 text-center sm:border-r sm:border-l">
                                         <span class="order-2 text-sm leading-6 font-medium text-slate-50 tracking-wider">
                                             { name }
                                         </span>
@@ -618,7 +618,7 @@
 
                             <div class="hidden lg:block rounded-lg bg-white shadow-md shadow-gray-700/50 lg:grid lg:grid-cols-7">
                                 {#each head as {id, slug, name}}
-                                    <a sveltekit:noscroll href='/rubric/{slug}'
+                                    <a sveltekit:noscroll href='/shop/rubric/{slug}'
                                        class="flex flex-col  hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 border border-gray-200 hover:border-red-800 p-4 text-center sm:border-r sm:border-l {'/rubric/' + slug === $page.url.pathname ? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900' : 'bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900'} "
                                     >
                                         <span class="order-2 text-sm leading-6 font-medium tracking-wider text-slate-50 transition ease-in-out delay-50 hover:scale-110 duration-50">
