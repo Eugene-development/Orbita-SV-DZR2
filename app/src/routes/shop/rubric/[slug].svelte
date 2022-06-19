@@ -1,5 +1,7 @@
 <script context="module">
 
+
+
     // import {pageTitle} from "../../stores.js";
 
     export const load = async ({fetch, params, url}) => {
@@ -17,8 +19,6 @@
 
         const resJSON = await res.json();
         const data = resJSON.rubrics.data[0]
-
-        console.log(data)
         const nameHead = data.name
         const rubric = data.rubric
         const text = data.text
@@ -28,6 +28,10 @@
         // pageTitle.update(() => nameHead);
 
         return {
+            // cache: {
+            //     "maxage": 300,
+            //     "private": false
+            // },
             props: {
                 title,
                 description,
@@ -50,6 +54,12 @@
     export let text
 
 </script>
+
+<svelte:head>
+    <title>{title}</title>
+    <meta name="description" content="{description}">
+</svelte:head>
+
 
 <div class="bg-white">
     <!--        <div class="pt-4 sm:pt-8 lg:pt-12">-->

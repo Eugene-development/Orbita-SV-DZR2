@@ -1,3 +1,8 @@
+<!--<svelte:head>-->
+<!--    <title>{title}</title>-->
+<!--    <meta name="description" content="{description}">-->
+<!--</svelte:head>-->
+
 <div class="relative py-16 bg-white overflow-hidden">
     <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">

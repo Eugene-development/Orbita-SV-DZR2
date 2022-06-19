@@ -423,7 +423,7 @@
                 <div class="hidden lg:flex-1 lg:flex sm:items-center sm:justify-between">
                     <nav class="flex space-x-10 font-semibold">
                         <a class="text-base text-slate-900 hover:text-red-800 " href="/">Главная</a>
-                        <a class="text-base text-slate-900 hover:text-red-800" href="/company">Компания</a>
+                        <a class="text-base text-slate-900 hover:text-red-800" href="/about">Компания</a>
                         <div on:outclick={closeVisibleInformationMenu} use:clickOutside>
                             <!-- Item active: "text-slate-900", Item inactive: "text-slate-500" -->
                             <button aria-expanded="false"
@@ -549,7 +549,7 @@
                             <!--{/if}-->
                         </div>
                         <a class="text-base text-slate-900 hover:text-red-800" href="/blog"> Блог </a>
-                        <a class="text-base text-slate-900 hover:text-red-800" href="/information/contact">
+                        <a class="text-base text-slate-900 hover:text-red-800" href="/contact">
                             Контакты </a>
                         <a class="text-base text-slate-900 hover:text-red-800" href="https://vk.com/orbita_stroy"
                            target="_blank"> VK </a>
