@@ -108,7 +108,7 @@
 
 <header>
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <!--    <div class="relative bg-gradient-to-tr from-indigo-500 via-indigo-600 to-indigo-500">-->
+    <!--    <div class="relative bg-gradient-to-tr from-gray-500 via-gray-600 to-gray-500">-->
     <!--        <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">-->
     <!--            <div class="pr-16 sm:text-left">-->
     <!--                <div class="font-medium text-white text-sm">-->
@@ -117,7 +117,7 @@
     <!--                    <span class="block sm:ml-5 sm:inline-block">почта: <strong>info@orbita-stroy.com</strong></span>-->
     <!--&lt;!&ndash;                    <span class="block sm:ml-5 sm:inline-block">режим: Пн-Пт 8:00-17:30; Сб 9:00-16:00</span>&ndash;&gt;-->
 
-    <!--                        <button class="ml-8 inline-flex items-center justify-center px-4 py-1 border border-transparent rounded-md text-base font-medium text-white bg-slate-50 hover:bg-indigo-800 shadow-lg shadow-indigo-700/50" href="/shop/cart" >-->
+    <!--                        <button class="ml-8 inline-flex items-center justify-center px-4 py-1 border border-transparent rounded-md text-base font-medium text-white bg-slate-50 hover:bg-gray-800 shadow-lg shadow-gray-700/50" href="/shop/cart" >-->
     <!--                            <svg class="mr-1 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"-->
     <!--                                 xmlns="http://www.w3.org/2000/svg">-->
     <!--                                <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" stroke-linecap="round" stroke-linejoin="round"-->
@@ -149,7 +149,7 @@
   }
   ```
 -->
-    <nav class="bg-indigo-900">
+    <nav class="bg-gray-900">
         <div class="max-w-7xl mx-auto px-2 sm:px-10 hidden lg:block">
             <div class="relative flex items-center justify-between h-12">
                 <div class="flex items-center px-1 lg:px-0">
@@ -386,7 +386,7 @@
                 </div>
 
                 <div class="flex items-center md:ml-12 lg:hidden">
-                    <a class="ml-8 inline-flex items-center justify-center px-3 py-1 border border-transparent rounded-md text-base font-medium text-white bg-indigo-900 hover:bg-indigo-800 shadow-lg shadow-indigo-700/50"
+                    <a class="ml-8 inline-flex items-center justify-center px-3 py-1 border border-transparent rounded-md text-base font-medium text-white bg-gray-900 hover:bg-gray-800 shadow-lg shadow-gray-700/50"
                        href="/shop/cart"
                        sveltekit:noscroll>
                         <svg class="mr-1 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -403,7 +403,7 @@
                 </div>
 
                 <div class="-mr-2 -my-2 lg:hidden">
-                    <button aria-expanded="false" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-slate-500 hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                    <button aria-expanded="false" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-slate-500 hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500"
                             on:click={changeVisibleMobileMenu}
                             type="button">
                         <span class="sr-only">Открыть меню</span>
@@ -430,7 +430,7 @@
                                 <!--
                                   Heroicon name: solid/chevron-down
 
-                                  Item active: "text-indigo-900", Item inactive: "text-slate-400"
+                                  Item active: "text-gray-900", Item inactive: "text-slate-400"
                                 -->
                                 <svg aria-hidden="true" class="text-red-700 ml-2 h-5 w-5"
                                      fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -466,7 +466,7 @@
                             <!--                                <a href="{href}" on:click={closeVisibleInformationMenu}-->
                             <!--                                   class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-slate-900 hover:bg-slate-50">-->
                             <!--                                    &lt;!&ndash; Heroicon name: outline/information-circle &ndash;&gt;-->
-                            <!--                                    <svg class="flex-shrink-0 h-6 w-6 text-indigo-400"-->
+                            <!--                                    <svg class="flex-shrink-0 h-6 w-6 text-gray-400"-->
                             <!--                                         xmlns="http://www.w3.org/2000/svg" fill="none"-->
                             <!--                                         viewBox="0 0 24 24" stroke="currentColor"-->
                             <!--                                         aria-hidden="true">-->
@@ -489,7 +489,7 @@
                             <!--                                   on:outclick={changeVisibleInformationMenu}-->
                             <!--                                   class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-slate-900 hover:bg-slate-50">-->
                             <!--                                    &lt;!&ndash; Heroicon name: outline/information-circle &ndash;&gt;-->
-                            <!--                                    <svg class="flex-shrink-0 h-6 w-6 text-indigo-400"-->
+                            <!--                                    <svg class="flex-shrink-0 h-6 w-6 text-gray-400"-->
                             <!--                                         xmlns="http://www.w3.org/2000/svg" fill="none"-->
                             <!--                                         viewBox="0 0 24 24" stroke="currentColor"-->
                             <!--                                         aria-hidden="true">-->
@@ -551,7 +551,7 @@
                            target="_blank"> VK </a>
                     </nav>
                     <div class="flex items-center md:ml-12">
-                        <a class="ml-8 inline-flex items-center justify-center px-4 py-1 border border-transparent rounded-md text-base font-medium text-white bg-indigo-900 hover:bg-indigo-800 shadow-lg shadow-indigo-700/50"
+                        <a class="ml-8 inline-flex items-center justify-center px-4 py-1 border border-transparent rounded-md text-base font-medium text-white bg-gray-900 hover:bg-gray-800 shadow-lg shadow-gray-700/50"
                            href="/shop/cart"
                            sveltekit:noscroll>
                             <svg class="mr-1 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -576,7 +576,7 @@
 
 
     <div class="bg-gray-100 pt-6 sm:pt-8 ">
-        <!--    <div class="bg-gradient-to-r from-indigo-200 via-slate-50 to-indigo-200 pt-6 sm:pt-8 ">-->
+        <!--    <div class="bg-gradient-to-r from-gray-200 via-slate-50 to-gray-200 pt-6 sm:pt-8 ">-->
         <!--    <div class="bg-hero-pattern pt-6 sm:pt-8 ">-->
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -584,7 +584,7 @@
                 <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl lg:text-5xl lowercase first-letter:uppercase">
                     { $pageTitle }
                 </h2>
-                <p class="mt-3 text-xl text-indigo-900 sm:mt-4">
+                <p class="mt-3 text-xl text-gray-900 sm:mt-4">
                     При заказе через каталог стройматериалов на сайте для вас скидка 5%
                 </p>
             </div>
@@ -597,13 +597,13 @@
 <!--            <div class="mt-8 pb-4 bg-white sm:pb-8">-->
 <!--                <div class="relative">-->
 <!--                    <div class="absolute inset-0 h-1/2 bg-gray-100 border-b border-slate-200"></div>-->
-<!--                    &lt;!&ndash;                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-indigo-200 via-slate-100 to-indigo-200 border-b border-slate-200"></div>&ndash;&gt;-->
+<!--                    &lt;!&ndash;                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div>&ndash;&gt;-->
 <!--                    <div class="relative max-w-full mx-auto px-4 sm:px-6 lg:px-8">-->
 <!--                        <div class="w-full mx-auto">-->
 
-<!--                            <div class="lg:hidden rounded-lg bg-white shadow-md shadow-indigo-700/50">-->
+<!--                            <div class="lg:hidden rounded-lg bg-white shadow-md shadow-gray-700/50">-->
 <!--                                {#each head as {id, slug, name}}-->
-<!--                                    <a sveltekit:noscroll href='/rubric/{slug}' on:click={ () => buttonVisibleCatalog.update(invertToFalse) } class="flex flex-col bg-gradient-to-tr hover:bg-gradient-to-bl from-indigo-500 via-indigo-900 to-indigo-700 border border-indigo-200 p-4 text-center sm:border-r sm:border-l">-->
+<!--                                    <a sveltekit:noscroll href='/rubric/{slug}' on:click={ () => buttonVisibleCatalog.update(invertToFalse) } class="flex flex-col bg-gradient-to-tr hover:bg-gradient-to-bl from-gray-500 via-gray-900 to-gray-700 border border-gray-200 p-4 text-center sm:border-r sm:border-l">-->
 <!--                                        <span class="order-2 text-sm leading-6 font-medium text-slate-50 tracking-wider">-->
 <!--                                            { name }-->
 <!--                                        </span>-->
@@ -612,10 +612,10 @@
 <!--                            </div>-->
 
 
-<!--                            <div class="hidden lg:block rounded-lg bg-white shadow-md shadow-indigo-700/50 lg:grid lg:grid-cols-7">-->
+<!--                            <div class="hidden lg:block rounded-lg bg-white shadow-md shadow-gray-700/50 lg:grid lg:grid-cols-7">-->
 <!--                                {#each head as {id, slug, name}}-->
 <!--                                    <a sveltekit:noscroll href='/rubric/{slug}'-->
-<!--                                       class="flex flex-col  hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 border border-indigo-200 hover:border-red-800 p-4 text-center sm:border-r sm:border-l {'/rubric/' + slug === $page.url.pathname ? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900' : 'bg-gradient-to-r from-indigo-900 via-indigo-800 to-indigo-900'} transition ease-in-out delay-100 hover:scale-110 duration-500"-->
+<!--                                       class="flex flex-col  hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 border border-gray-200 hover:border-red-800 p-4 text-center sm:border-r sm:border-l {'/rubric/' + slug === $page.url.pathname ? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900' : 'bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900'} transition ease-in-out delay-100 hover:scale-110 duration-500"-->
 <!--                                    >-->
 <!--                                        <span class="order-2 text-sm leading-6 font-medium tracking-wider text-slate-50">-->
 <!--                                            { name }-->
@@ -632,13 +632,13 @@
             <div class="mt-8 pb-4 bg-white sm:pb-8">
                 <div class="relative">
                     <div class="absolute inset-0 h-1/2 bg-gray-100 border-b border-slate-200"></div>
-                    <!--                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-indigo-200 via-slate-100 to-indigo-200 border-b border-slate-200"></div>-->
+                    <!--                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div>-->
                     <div class="relative max-w-full mx-auto px-4 sm:px-6 lg:px-8 ">
                         <div class="w-full mx-auto ">
                             <div on:click={ changeButtonVisibleCatalog }
-                                 class="text-center rounded-md shadow-md shadow-indigo-700/50 bg-gradient-to-r from-indigo-900 via-indigo-800 to-indigo-900 hover:from-indigo-600 hover:via-indigo-800 hover:to-indigo-600 border border-indigo-200 ">
+                                 class="text-center rounded-md shadow-md shadow-gray-700/50 bg-gradient-to-r from-gray-900 via-gray-900 to-gray-900 hover:from-gray-600 hover:via-gray-800 hover:to-gray-600 border border-gray-200 ">
                                 <p class="p-3">
-                                    <span class="text-2xl font-medium text-slate-50 tracking-wider">
+                                    <span class="text-2xl font-medium text-red-50 tracking-wider">
                                         Каталог стройматериалов
                                     </span>
                                 </p>
