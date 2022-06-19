@@ -5,6 +5,10 @@
 
     // import MobileMenu from "./mobile/index.svelte";
     // import {useHead} from "$lib/use/content/header";
+
+    import {useHead} from "../../content/index.js";
+    const {head, information} = useHead;
+
     import {useVisible} from "$lib/functions/visible";
     import {
         allProd,
@@ -594,40 +598,40 @@
 
 
         {#if $buttonVisibleCatalog}
-<!--            <div class="mt-8 pb-4 bg-white sm:pb-8">-->
-<!--                <div class="relative">-->
-<!--                    <div class="absolute inset-0 h-1/2 bg-gray-100 border-b border-slate-200"></div>-->
-<!--                    &lt;!&ndash;                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div>&ndash;&gt;-->
-<!--                    <div class="relative max-w-full mx-auto px-4 sm:px-6 lg:px-8">-->
-<!--                        <div class="w-full mx-auto">-->
+            <div class="mt-8 pb-4 bg-white sm:pb-8">
+                <div class="relative">
+                    <div class="absolute inset-0 h-1/2 bg-gray-100 border-b border-slate-200"></div>
+                    <!--                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div>-->
+                    <div class="relative max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+                        <div class="w-full mx-auto">
 
-<!--                            <div class="lg:hidden rounded-lg bg-white shadow-md shadow-gray-700/50">-->
-<!--                                {#each head as {id, slug, name}}-->
-<!--                                    <a sveltekit:noscroll href='/rubric/{slug}' on:click={ () => buttonVisibleCatalog.update(invertToFalse) } class="flex flex-col bg-gradient-to-tr hover:bg-gradient-to-bl from-gray-500 via-gray-900 to-gray-700 border border-gray-200 p-4 text-center sm:border-r sm:border-l">-->
-<!--                                        <span class="order-2 text-sm leading-6 font-medium text-slate-50 tracking-wider">-->
-<!--                                            { name }-->
-<!--                                        </span>-->
-<!--                                    </a>-->
-<!--                                {/each}-->
-<!--                            </div>-->
+                            <div class="lg:hidden rounded-lg bg-white shadow-md shadow-gray-700/50">
+                                {#each head as {id, slug, name}}
+                                    <a sveltekit:noscroll href='/rubric/{slug}' on:click={ () => buttonVisibleCatalog.update(invertToFalse) } class="flex flex-col bg-gradient-to-tr hover:bg-gradient-to-bl from-gray-500 via-gray-900 to-gray-700 border border-gray-200 p-4 text-center sm:border-r sm:border-l">
+                                        <span class="order-2 text-sm leading-6 font-medium text-slate-50 tracking-wider">
+                                            { name }
+                                        </span>
+                                    </a>
+                                {/each}
+                            </div>
 
 
-<!--                            <div class="hidden lg:block rounded-lg bg-white shadow-md shadow-gray-700/50 lg:grid lg:grid-cols-7">-->
-<!--                                {#each head as {id, slug, name}}-->
-<!--                                    <a sveltekit:noscroll href='/rubric/{slug}'-->
-<!--                                       class="flex flex-col  hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 border border-gray-200 hover:border-red-800 p-4 text-center sm:border-r sm:border-l {'/rubric/' + slug === $page.url.pathname ? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900' : 'bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900'} transition ease-in-out delay-100 hover:scale-110 duration-500"-->
-<!--                                    >-->
-<!--                                        <span class="order-2 text-sm leading-6 font-medium tracking-wider text-slate-50">-->
-<!--                                            { name }-->
-<!--                                        </span>-->
-<!--                                    </a>-->
-<!--                                {/each}-->
-<!--                            </div>-->
+                            <div class="hidden lg:block rounded-lg bg-white shadow-md shadow-gray-700/50 lg:grid lg:grid-cols-7">
+                                {#each head as {id, slug, name}}
+                                    <a sveltekit:noscroll href='/rubric/{slug}'
+                                       class="flex flex-col  hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 border border-gray-200 hover:border-red-800 p-4 text-center sm:border-r sm:border-l {'/rubric/' + slug === $page.url.pathname ? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900' : 'bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900'} "
+                                    >
+                                        <span class="order-2 text-sm leading-6 font-medium tracking-wider text-slate-50 transition ease-in-out delay-50 hover:scale-110 duration-50">
+                                            { name }
+                                        </span>
+                                    </a>
+                                {/each}
+                            </div>
 
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
         {:else }
             <div class="mt-8 pb-4 bg-white sm:pb-8">
                 <div class="relative">
