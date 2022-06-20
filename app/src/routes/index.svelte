@@ -29,87 +29,30 @@
 	<!--      </div>-->
 	<!--    </div>-->
 
-	<!-- This example requires Tailwind CSS v2.0+ -->
-
-	<!--    <div class="h-screen " style="background-image: url(https://xn&#45;&#45;&#45;&#45;7sbc2ahzelejid.xn&#45;&#45;p1ai/storage/img/slider/slider3.jpg)"></div>-->
 	<div class="relative">
-		<div class=" mx-auto">
-			<div class="relative shadow-xl  sm:overflow-hidden">
+		<div class=" sm:px-6 lg:px-8">
+			<div class="relative shadow-xl sm:rounded-lg sm:overflow-hidden">
 				<div class="absolute inset-0">
-					<img
-						alt="строительные материалы"
-						class="h-full w-full object-cover"
-						src="https://storage.yandexcloud.net/brand-logo/orbita/brand/mainfoto.jpeg"
-					/>
-					<div
-						class="from-blueGray-300 via-blueGray-500 to-blueGray-300 absolute inset-0 bg-gradient-to-r"
-						style="mix-blend-mode: multiply;">
-					</div>
+					<img class="h-full w-full object-cover" src="https://storage.yandexcloud.net/brand-logo/orbita/brand/mainfoto.jpeg" alt="Стройматериалы в Нижнем Новгороде">
+					<div class="absolute inset-0 bg-gray-600 mix-blend-multiply"></div>
 				</div>
 				<div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-					<h1
-						class="mb-12 text-center text-5xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl"
-					>
-						<span class="mb-4 block text-white">База строительных и отделочных материалов</span>
-						<span class="block text-indigo-100">"Орбита-строй"</span>
+					<h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
+						<span class="block text-white">База строительных и отделочных материалов</span>
+						<span class="block text-gray-300">в Дзержинске</span>
 					</h1>
-					<hr />
-					<h2 class="mx-auto mt-6 max-w-lg text-center text-3xl text-indigo-50 sm:max-w-3xl">
-						Оптовая и розничная продажа<br />
-						строительных и отделочных материалов
-					</h2>
-
-					<div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
-						<!--						<NuxtLink to="/actions" class="font-semibold	tracking-wider flex items-center justify-center px-3 py-3 border border-transparent text-xl font-medium rounded-md shadow-sm text-red-900 bg-white hover:bg-indigo-50 sm:px-8">-->
-						<!--							Наши акции-->
-						<!--						</NuxtLink>-->
+					<p class="mt-6 p-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl bg-gray-800 bg-opacity-30">Оптовая и розничная продажа<br />
+						строительных и отделочных материалов со складов в Дзержинске. <br> Широкий ассортимент и доступные цены.</p>
+					<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+						<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
+<!--							<button on:click={ changeButtonVisibleCatalog } class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"> Каталог </button>-->
+<!--							<a href="/blog" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-800 bg-opacity-80 hover:bg-opacity-70 sm:px-8"> Наш блог </a>-->
+						</div>
 					</div>
-
-					<!--                    <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">-->
-					<!--                      <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">-->
-					<!--                        <NuxtLink to="/office/dashboard" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8">-->
-					<!--                          Начать-->
-					<!--                        </NuxtLink>-->
-					<!--                        <button-->
-					<!--                          class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"-->
-					<!--                          role="menuitem"-->
-					<!--                          @click.stop.once="logout">Выход-->
-					<!--                        </button>-->
-
-					<!--                      </div>-->
-					<!--                    </div>-->
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<!--          <div class="relative px-6 py-8 bg-gray-900 overflow-hidden shadow-xl sm:px-12 sm:py-20">-->
-	<!--            <div aria-hidden="true" class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">-->
-	<!--              <svg class="absolute inset-0 h-full w-full" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1463 360">-->
-	<!--                <path class="text-indigo-700 text-opacity-40" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />-->
-	<!--                <path class="text-indigo-900 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />-->
-	<!--              </svg>-->
-	<!--            </div>-->
-	<!--            <div class="relative">-->
-	<!--              <div class="sm:text-center">-->
-	<!--                <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">-->
-	<!--                  Поиск по каталогу-->
-	<!--                </h2>-->
-	<!--                <p class="mt-6 mx-auto max-w-2xl text-lg text-indigo-200">-->
-	<!--                  Введите название интересующего вас товара-->
-	<!--                </p>-->
-	<!--              </div>-->
-	<!--              <form action="#" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex">-->
-	<!--                <div class="min-w-0 flex-1">-->
-	<!--                  <label for="cta_email" class="sr-only">поиск</label>-->
-	<!--                  <input id="cta_email" type="search" class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600" placeholder="Поиск">-->
-	<!--                </div>-->
-	<!--                <div class="mt-4 sm:mt-0 sm:ml-3">-->
-	<!--                  <button type="submit" class="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-500 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10">Найти</button>-->
-	<!--                </div>-->
-	<!--              </form>-->
-	<!--            </div>-->
-	<!--          </div>-->
 
 	<div class="my-24 bg-indigo-50 pb-16 lg:relative lg:z-10 lg:pb-0">
 		<!--    <div class="my-24 pb-16 bg-gradient-to-r from-white to-indigo-900 lg:pb-0 lg:z-10 lg:relative">-->
@@ -152,7 +95,7 @@
 						</div>
 						<footer class="mt-6">
 							<p class="text-blueGray-800 text-base font-medium">Сорокин Сергей Владимирович</p>
-							<p class="text-base font-medium text-indigo-800">Директор</p>
+							<p class="text-base font-medium text-red-800">Директор</p>
 						</footer>
 					</blockquote>
 				</div>
@@ -306,9 +249,9 @@
 	<!--    </div>-->
 
 	<section class="bg-gray-900">
-		<div class="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
+		<div class="md:grid md:grid-cols-2">
 			<div
-				class="py-12 px-4 sm:px-6 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 md:pl-0 md:pr-10 lg:pr-16"
+				class="py-12 px-12 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 "
 			>
 				<div class="text-2xl text-gray-100 md:flex-shrink-0">
 					<h2>ООО "РемСтройМонтаж"</h2>
@@ -318,7 +261,7 @@
 					<div class="relative text-lg font-medium text-white md:flex-grow">
 						<svg
 							aria-hidden="true"
-							class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-600"
+							class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-red-500"
 							fill="currentColor"
 							viewBox="0 0 32 32"
 						>
@@ -339,16 +282,16 @@
 							<!--                <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">-->
 							<!--                  <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">-->
 							<!--                </div>-->
-							<div class="ml-4">
+							<div class="ml-1">
 								<div class="text-base font-medium text-white">Вилков А.Н.</div>
-								<div class="text-base font-medium text-indigo-200">Генеральный директор</div>
+								<div class="text-base font-medium text-red-500">Генеральный директор</div>
 							</div>
 						</div>
 					</footer>
 				</blockquote>
 			</div>
 			<div
-				class="border-t-2 py-12 px-4  sm:px-6 md:border-t-0 md:border-l md:py-16 md:pr-0 md:pl-10 lg:pl-16"
+				class="border-t-2 py-12 px-12 md:border-t-0 md:border-l md:py-16 "
 			>
 				<div class="text-2xl text-gray-100 md:flex-shrink-0">
 					<h2>ООО "ПСГ" Химрегион</h2>
@@ -357,7 +300,7 @@
 				<blockquote class="mt-6 md:flex md:flex-grow md:flex-col">
 					<div class="relative text-lg font-medium text-white md:flex-grow">
 						<svg
-							class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-600"
+							class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-red-500"
 							fill="currentColor"
 							viewBox="0 0 32 32"
 						>
@@ -368,8 +311,8 @@
 						<br />
 						<p class="relative">
 							ООО "ПСГ" Химрегион сотрудничает с "Орбита-Строй" с 2016 года. Хотим от всей души
-							поблагодарить Вас за внимательное отношение к своим клиентам и профессионализм. Очень
-							надеемся на дальнейшее сотрудничество с Вами.
+							поблагодарить Вас за внимательное отношение к своим клиентам и профессионализм. Довольны обилием ассортимента, постоянными акциями и низкими ценами. Очень
+							надеемся на дальнейшее взаимовыгодное сотрудничество с Вами и вашим коллективом.
 						</p>
 					</div>
 					<footer class="mt-8">
@@ -377,9 +320,9 @@
 							<!--                <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">-->
 							<!--                  <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">-->
 							<!--                </div>-->
-							<div class="ml-4">
+							<div class="ml-1">
 								<div class="text-base font-medium text-white">Чернышев В.В.</div>
-								<div class="text-base font-medium text-indigo-200">Генеральный директор</div>
+								<div class="text-base font-medium text-red-500">Генеральный директор</div>
 							</div>
 						</div>
 					</footer>
@@ -410,7 +353,7 @@
 			<div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block" />
 			<div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
 				<div>
-					<h2 class="text-base font-semibold uppercase tracking-wide text-indigo-600">
+					<h2 class="text-base font-semibold uppercase tracking-wide text-red-600">
 						Строительная база
 					</h2>
 					<h3

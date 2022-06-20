@@ -640,9 +640,9 @@
                     <div class="relative max-w-full mx-auto px-4 sm:px-6 lg:px-8 ">
                         <div class="w-full mx-auto ">
                             <div on:click={ changeButtonVisibleCatalog }
-                                 class="text-center rounded-md shadow-md shadow-gray-700/50 bg-gradient-to-r from-gray-900 via-gray-900 to-gray-900 hover:from-gray-600 hover:via-gray-800 hover:to-gray-600 border border-gray-200 ">
+                                 class="text-center rounded-md shadow-md shadow-gray-700/50 bg-gradient-to-r from-gray-900 via-gray-900 to-gray-900 hover:from-gray-800 hover:via-gray-800 hover:to-gray-800 border border-gray-200 ">
                                 <p class="p-3">
-                                    <span class="text-2xl font-medium text-red-50 tracking-wider">
+                                    <span class="text-2xl font-medium text-gray-50 tracking-wider">
                                         Каталог стройматериалов
                                     </span>
                                 </p>
