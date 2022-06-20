@@ -123,7 +123,7 @@
         <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
             {#each products as { id, name, slug, size, unit, image }}
                 <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow-lg shadow-slate-200/50 divide-y divide-slate-200 border-2 border-slate-100 ring-offset-1 ring-1 ring-slate-100">
-                    <a sveltekit:prefetch sveltekit:noscroll href="/product/{slug}">
+                    <a sveltekit:prefetch sveltekit:noscroll href="/shop/product/{slug}">
                         <div class="flex-1 flex flex-col p-8">
 
                             {#if (image[0])}
