@@ -102,7 +102,7 @@
                                 <ul class="space-y-2">
                                 </ul>
                                 <div class="mb-2 rounded-md shadow-xl shadow-indigo-500/50">
-                                    <a sveltekit:prefetch sveltekit:noscroll href='/category/{slug}'
+                                    <a sveltekit:prefetch sveltekit:noscroll href='/shop/category/{slug}'
                                        class="ease-in duration-300 block w-full bg-gradient-to-r from-indigo-500 via-indigo-800 to-indigo-500 hover:from-indigo-800 hover:via-indigo-500 hover:to-indigo-800 border border-indigo-900 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-indigo-900">
                                         В каталог
                                     </a>
