@@ -2,7 +2,7 @@
 
 
 
-    // import {pageTitle} from "../../stores.js";
+    import {pageTitle} from "$stores/store.js";
 
     export const load = async ({fetch, params, url}) => {
 

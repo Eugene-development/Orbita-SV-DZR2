@@ -1,5 +1,5 @@
 <script context="module">
-    // import {pageTitle} from "../../stores.js";
+    import {pageTitle} from "$stores/store.js";
 
     export const load = async ({fetch, params, url}) => {
         const idRubric = url.searchParams.get('id');
@@ -222,7 +222,7 @@
                                         </p>
                                         <div class="mt-6">
                                             <div class="rounded-md shadow">
-                                                <a sveltekit:prefetch href='/products/{slug}'
+                                                <a sveltekit:prefetch href='/shop/products/{slug}'
                                                    class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-tr hover:bg-gradient-to-bl from-indigo-500 via-indigo-900 to-indigo-700">
                                                     Выбрать </a>
                                             </div>
