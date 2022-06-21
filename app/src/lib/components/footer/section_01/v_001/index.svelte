@@ -1,3 +1,8 @@
+<script>
+    const now = new Date();
+    const year = now.getFullYear()
+</script>
+
 <div>
     <div class="w-screen  py-20 bg-gray-100">
         <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
@@ -70,9 +75,8 @@
                             <ul class="mt-4 space-y-4">
                                 <li class="flow-root">
                                     <a
-
                                             class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900"
-                                            href="/information/client/workteams">
+                                            href="/information/partner/yurlica">
                                         <!-- Heroicon name: information-circle -->
                                         <svg aria-hidden="true" class="flex-shrink-0 h-6 w-6 text-gray-400" fill="none"
                                              stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -155,7 +159,7 @@
                                     <a
 
                                             class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900"
-                                            href="/information/partner/brigades">
+                                            href="/information/partner/brigadi">
                                         <!-- Heroicon name: globe-alt -->
                                         <svg aria-hidden="true" class="flex-shrink-0 h-6 w-6 text-gray-400" fill="none"
                                              stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -255,7 +259,7 @@
                     <!--          </a>-->
                 </div>
                 <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-                    &copy; 2020 База строительных материалов "Орбита-строй".
+                    &copy; 2013-{year} База строительных материалов "Орбита-строй".
                 </p>
             </div>
         </div>
