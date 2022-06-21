@@ -8,6 +8,7 @@
 
     import {useHead} from "../../content/index.js";
     const {head, information} = useHead;
+    const {left: leftInfo, right: rightInfo} = information[0];
 
     import {useVisible} from "$lib/functions/visible";
     import {
@@ -18,15 +19,13 @@
         lengthCart,
         mobileMenu,
         pageTitle
-    } from "$stores/store.js";
+    } from "../../../../../stores/store.js";
     import {onMount} from "svelte";
     import {browser} from "$app/env";
     import Search from "$lib/components/forms/search/index.svelte";
     import axios from "axios";
     import pkg from 'lodash';
 
-    // const {head, information} = useHead;
-    // const {left: leftInfo, right: rightInfo} = information[0];
 
     const {invert, invertToFalse, invertToTrue} = useVisible;
 
@@ -38,8 +37,8 @@
     };
 
 
-    let visibleInformationMenu;
-    informationMenu.subscribe(value => visibleInformationMenu = value);
+    // let visibleInformationMenu;
+    // informationMenu.subscribe(value => visibleInformationMenu = value);
 
     let countLengthCart;
     onMount(async () => {
@@ -454,99 +453,99 @@
                                 From: "opacity-100 translate-y-0"
                                 To: "opacity-0 -translate-y-1"
                             -->
-                            <!--{#if visibleInformationMenu}-->
-                            <!--    <div class="hidden md:block absolute z-10 top-full inset-x-0 transform shadow-lg">-->
-                            <!--        <div class="absolute inset-0 flex">-->
-                            <!--            <div class="bg-white w-1/2"></div>-->
-                            <!--            <div class="bg-slate-50 w-1/2"></div>-->
-                            <!--        </div>-->
-                            <!--        <div class="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2">-->
-                            <!--            <nav class="grid gap-y-10 px-4 py-8 bg-white sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12">-->
-                            <!--                <div>-->
-                            <!--                    &lt;!&ndash;                                                <h3 class="text-sm font-medium tracking-wide text-slate-500 uppercase">Company</h3>&ndash;&gt;-->
-                            <!--                    <ul class="mt-5 space-y-6">-->
-                            <!--                        {#each leftInfo as {href, displayName}}-->
-                            <!--                            <li class="flow-root">-->
-                            <!--                                <a href="{href}" on:click={closeVisibleInformationMenu}-->
-                            <!--                                   class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-slate-900 hover:bg-slate-50">-->
-                            <!--                                    &lt;!&ndash; Heroicon name: outline/information-circle &ndash;&gt;-->
-                            <!--                                    <svg class="flex-shrink-0 h-6 w-6 text-gray-400"-->
-                            <!--                                         xmlns="http://www.w3.org/2000/svg" fill="none"-->
-                            <!--                                         viewBox="0 0 24 24" stroke="currentColor"-->
-                            <!--                                         aria-hidden="true">-->
-                            <!--                                        <path stroke-linecap="round" stroke-linejoin="round"-->
-                            <!--                                              stroke-width="2"-->
-                            <!--                                              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>-->
-                            <!--                                    </svg>-->
-                            <!--                                    <span class="ml-4">{displayName}</span>-->
-                            <!--                                </a>-->
-                            <!--                            </li>-->
-                            <!--                        {/each}-->
-                            <!--                    </ul>-->
-                            <!--                </div>-->
-                            <!--                <div>-->
-                            <!--                    &lt;!&ndash;                                                <h3 class="text-sm font-medium tracking-wide text-slate-500 uppercase">Resources</h3>&ndash;&gt;-->
-                            <!--                    <ul class="mt-5 space-y-6">-->
-                            <!--                        {#each rightInfo as {href, displayName}}-->
-                            <!--                            <li class="flow-root">-->
-                            <!--                                <a href="{href}" on:click={changeVisibleInformationMenu}-->
-                            <!--                                   on:outclick={changeVisibleInformationMenu}-->
-                            <!--                                   class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-slate-900 hover:bg-slate-50">-->
-                            <!--                                    &lt;!&ndash; Heroicon name: outline/information-circle &ndash;&gt;-->
-                            <!--                                    <svg class="flex-shrink-0 h-6 w-6 text-gray-400"-->
-                            <!--                                         xmlns="http://www.w3.org/2000/svg" fill="none"-->
-                            <!--                                         viewBox="0 0 24 24" stroke="currentColor"-->
-                            <!--                                         aria-hidden="true">-->
-                            <!--                                        <path stroke-linecap="round" stroke-linejoin="round"-->
-                            <!--                                              stroke-width="2"-->
-                            <!--                                              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>-->
-                            <!--                                    </svg>-->
-                            <!--                                    <span class="ml-4">{displayName}</span>-->
-                            <!--                                </a>-->
-                            <!--                            </li>-->
-                            <!--                        {/each}-->
-                            <!--                    </ul>-->
-                            <!--                </div>-->
-                            <!--            </nav>-->
-                            <!--            <div class="bg-slate-50 px-4 py-8 sm:py-12 sm:px-6 lg:px-8 xl:pl-12">-->
-                            <!--                <div>-->
-                            <!--                    <h3 class="text-sm font-medium tracking-wide text-slate-500 uppercase">-->
-                            <!--                        Последнее из блога</h3>-->
-                            <!--                    &lt;!&ndash;                                                <ul role="list" class="mt-6 space-y-6">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                    <li class="flow-root">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                        <a href="#" class="-m-3 p-3 flex rounded-lg hover:bg-slate-100">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                            <div class="hidden sm:block flex-shrink-0">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                                <img class="w-32 h-20 object-cover rounded-md" src="https://images.unsplash.com/photo-1558478551-1a378f63328e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2849&q=80" alt="">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                            </div>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                            <div class="w-0 flex-1 sm:ml-8">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                                <h4 class="text-base font-medium text-slate-900 truncate">Boost your conversion rate</h4>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                                <p class="mt-1 text-sm text-slate-500">Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.</p>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                            </div>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                        </a>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                    </li>&ndash;&gt;-->
+                            {#if $informationMenu}
+                                <div class="hidden md:block absolute z-10 top-full inset-x-0 transform shadow-lg">
+                                    <div class="absolute inset-0 flex">
+                                        <div class="bg-white w-1/2"></div>
+                                        <div class="bg-slate-50 w-1/2"></div>
+                                    </div>
+                                    <div class="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2">
+                                        <nav class="grid gap-y-10 px-4 py-8 bg-white sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12">
+                                            <div>
+                                                <!--                                                <h3 class="text-sm font-medium tracking-wide text-slate-500 uppercase">Company</h3>-->
+                                                <ul class="mt-5 space-y-6">
+                                                    {#each leftInfo as {href, displayName}}
+                                                        <li class="flow-root">
+                                                            <a href="{href}" on:click={closeVisibleInformationMenu}
+                                                               class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-slate-900 hover:bg-slate-50">
+                                                                <!-- Heroicon name: outline/information-circle -->
+                                                                <svg class="flex-shrink-0 h-6 w-6 text-gray-400"
+                                                                     xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                     viewBox="0 0 24 24" stroke="currentColor"
+                                                                     aria-hidden="true">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                          stroke-width="2"
+                                                                          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                                                </svg>
+                                                                <span class="ml-4">{displayName}</span>
+                                                            </a>
+                                                        </li>
+                                                    {/each}
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <!--                                                <h3 class="text-sm font-medium tracking-wide text-slate-500 uppercase">Resources</h3>-->
+                                                <ul class="mt-5 space-y-6">
+                                                    {#each rightInfo as {href, displayName}}
+                                                        <li class="flow-root">
+                                                            <a href="{href}" on:click={changeVisibleInformationMenu}
+                                                               on:outclick={changeVisibleInformationMenu}
+                                                               class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-slate-900 hover:bg-slate-50">
+                                                                <!-- Heroicon name: outline/information-circle -->
+                                                                <svg class="flex-shrink-0 h-6 w-6 text-gray-400"
+                                                                     xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                     viewBox="0 0 24 24" stroke="currentColor"
+                                                                     aria-hidden="true">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                                          stroke-width="2"
+                                                                          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                                                </svg>
+                                                                <span class="ml-4">{displayName}</span>
+                                                            </a>
+                                                        </li>
+                                                    {/each}
+                                                </ul>
+                                            </div>
+                                        </nav>
+                                        <div class="bg-slate-50 px-4 py-8 sm:py-12 sm:px-6 lg:px-8 xl:pl-12">
+                                            <div>
+                                                <h3 class="text-sm font-medium tracking-wide text-slate-500 uppercase">
+                                                    Последнее из блога</h3>
+                                                <!--                                                <ul role="list" class="mt-6 space-y-6">-->
+                                                <!--                                                    <li class="flow-root">-->
+                                                <!--                                                        <a href="#" class="-m-3 p-3 flex rounded-lg hover:bg-slate-100">-->
+                                                <!--                                                            <div class="hidden sm:block flex-shrink-0">-->
+                                                <!--                                                                <img class="w-32 h-20 object-cover rounded-md" src="https://images.unsplash.com/photo-1558478551-1a378f63328e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2849&q=80" alt="">-->
+                                                <!--                                                            </div>-->
+                                                <!--                                                            <div class="w-0 flex-1 sm:ml-8">-->
+                                                <!--                                                                <h4 class="text-base font-medium text-slate-900 truncate">Boost your conversion rate</h4>-->
+                                                <!--                                                                <p class="mt-1 text-sm text-slate-500">Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.</p>-->
+                                                <!--                                                            </div>-->
+                                                <!--                                                        </a>-->
+                                                <!--                                                    </li>-->
 
-                            <!--                    &lt;!&ndash;                                                    <li class="flow-root">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                        <a href="#" class="-m-3 p-3 flex rounded-lg hover:bg-slate-100">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                            <div class="hidden sm:block flex-shrink-0">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                                <img class="w-32 h-20 object-cover rounded-md" src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2300&q=80" alt="">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                            </div>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                            <div class="w-0 flex-1 sm:ml-8">&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                                <h4 class="text-base font-medium text-slate-900 truncate">How to use search engine optimization to drive traffic to your site</h4>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                                <p class="mt-1 text-sm text-slate-500">Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.</p>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                            </div>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                        </a>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                    </li>&ndash;&gt;-->
-                            <!--                    &lt;!&ndash;                                                </ul>&ndash;&gt;-->
-                            <!--                </div>-->
-                            <!--                <div class="mt-6 text-sm font-medium">-->
-                            <!--                    <a href="/blog" on:click={changeVisibleInformationMenu}-->
-                            <!--                       class="text-red-700 hover:text-red-800"> Перейти в блог <span-->
-                            <!--                            aria-hidden="true">&rarr;</span></a>-->
-                            <!--                </div>-->
-                            <!--            </div>-->
-                            <!--        </div>-->
-                            <!--    </div>-->
-                            <!--{/if}-->
+                                                <!--                                                    <li class="flow-root">-->
+                                                <!--                                                        <a href="#" class="-m-3 p-3 flex rounded-lg hover:bg-slate-100">-->
+                                                <!--                                                            <div class="hidden sm:block flex-shrink-0">-->
+                                                <!--                                                                <img class="w-32 h-20 object-cover rounded-md" src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2300&q=80" alt="">-->
+                                                <!--                                                            </div>-->
+                                                <!--                                                            <div class="w-0 flex-1 sm:ml-8">-->
+                                                <!--                                                                <h4 class="text-base font-medium text-slate-900 truncate">How to use search engine optimization to drive traffic to your site</h4>-->
+                                                <!--                                                                <p class="mt-1 text-sm text-slate-500">Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.</p>-->
+                                                <!--                                                            </div>-->
+                                                <!--                                                        </a>-->
+                                                <!--                                                    </li>-->
+                                                <!--                                                </ul>-->
+                                            </div>
+                                            <div class="mt-6 text-sm font-medium">
+                                                <a href="/blog" on:click={changeVisibleInformationMenu}
+                                                   class="text-red-700 hover:text-red-800"> Перейти в блог <span
+                                                        aria-hidden="true">&rarr;</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {/if}
                         </div>
                         <a class="text-base text-slate-900 hover:text-red-800" href="/blog"> Блог </a>
                         <a class="text-base text-slate-900 hover:text-red-800" href="/contact">
