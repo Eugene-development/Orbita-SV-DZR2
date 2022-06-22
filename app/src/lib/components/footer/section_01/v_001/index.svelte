@@ -155,7 +155,7 @@
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
-										href="/information/client/delivery"
+										href="/information/delivery"
 									>
 										<!-- Heroicon name: office-building -->
 										<svg
@@ -180,7 +180,7 @@
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
-										href="/information/client/payment"
+										href="/information/payment"
 									>
 										<!-- Heroicon name: newspaper -->
 										<svg
@@ -205,7 +205,7 @@
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
-										href="/information/client/testimonials"
+										href="/information/testimonials"
 									>
 										<!-- Heroicon name: briefcase -->
 										<svg
@@ -237,7 +237,7 @@
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
-										href="/information/partner/yurlica"
+										href="/information/yurlica"
 									>
 										<!-- Heroicon name: user-group -->
 										<svg
@@ -262,7 +262,7 @@
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
-										href="/information/partner/brigadi"
+										href="/information/brigadi"
 									>
 										<!-- Heroicon name: globe-alt -->
 										<svg
@@ -287,7 +287,7 @@
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
-										href="/information/partner/ip"
+										href="/information/ip"
 									>
 										<!-- Heroicon name: bookmark-alt -->
 										<svg
@@ -312,7 +312,7 @@
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
-										href="/information/partner/fizlica"
+										href="/information/fizlica"
 									>
 										<!-- Heroicon name: desktop-computer -->
 										<svg
