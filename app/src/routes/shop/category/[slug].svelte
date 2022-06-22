@@ -19,13 +19,13 @@
 		const category = data.category;
 
 		const text = data.text;
-		const title = 'Стройматериалы' + ' || ' + nameRubric + ' в Нижнем Новгороде';
+		const title = 'Строительные материалы' + ' || ' + nameRubric + ' в Дзержинске';
 		const description =
 			nameRubric +
-			' в Нижнем Новгороде и области. ' +
+			' в Дзержинске и области. ' +
 			'Приобретайте ' +
 			nameRubric +
-			' по низким ценам.';
+			' недорого со скидками.';
 
 		// pageTitle.update(() => nameRubric);
 

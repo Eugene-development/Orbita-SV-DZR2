@@ -25,10 +25,10 @@
 		const seoTitle = data.seo ? data.seo.title : 'Строительные и отделочные материалы';
 		const seoDescription = data.seo
 			? data.seo.description
-			: 'Строительные и отделочные материалы в Нижнем Новгороде';
-		const title = nameProduct + ' в Нижнем Новгороде || ' + seoTitle;
+			: 'Строительные и отделочные материалы в Дзержинске';
+		const title = nameProduct + ' в Дзержинске || ' + seoTitle;
 		const description =
-			nameProduct + ' в наличии с доставкой по Нижнему Новгороду. ' + seoDescription;
+			nameProduct + ' в наличии с доставкой по Дзержинску. ' + seoDescription;
 
 		pageTitle.update(() => nameProduct);
 

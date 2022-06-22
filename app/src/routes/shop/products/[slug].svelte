@@ -19,10 +19,10 @@
 		const products = data.product;
 		const pathAWS = resJSON.pathAWS;
 
-		const seoTitle = data.seo ? data.seo.title : 'Скидки и акции';
-		const seoDescription = data.seo ? data.seo.description : "Продукция от компании 'Орбита-Строй'";
-		const title = 'Стройматериалы' + ' || ' + nameCategory + ' в Нижнем Новгороде || ' + seoTitle;
-		const description = nameCategory + ' в Нижнем Новгороде и области. ' + seoDescription;
+		const seoTitle = data.seo ? data.seo.title : 'Скидки и акции от нашей компании';
+		const seoDescription = data.seo ? data.seo.description : "Стройматериалы от компании 'Орбита-Строй' в Дзержинске";
+		const title = 'Стройматериалы с доставкой' + ' || ' + nameCategory + ' в Дзержинске || ' + seoTitle;
+		const description = nameCategory + ' в Дзержинске и регионе. ' + seoDescription;
 
 		pageTitle.update(() => nameCategory);
 
