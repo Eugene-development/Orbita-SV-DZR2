@@ -18,8 +18,7 @@
 		const nameHead = data.name;
 		const rubric = data.rubric;
 		const text = data.text;
-		const title =
-			nameHead + " в Дзержинске || База стройматериалов 'Орбита-Строй' в Дзержинске";
+		const title = nameHead + " в Дзержинске || База стройматериалов 'Орбита-Строй' в Дзержинске";
 		const description =
 			nameHead +
 			' по низким ценам в Дзержинске и регионе. Предлагаем доставку и скидки для товара ' +

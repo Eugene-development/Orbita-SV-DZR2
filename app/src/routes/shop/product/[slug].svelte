@@ -27,8 +27,7 @@
 			? data.seo.description
 			: 'Строительные и отделочные материалы в Дзержинске';
 		const title = nameProduct + ' в Дзержинске || ' + seoTitle;
-		const description =
-			nameProduct + ' в наличии с доставкой по Дзержинску. ' + seoDescription;
+		const description = nameProduct + ' в наличии с доставкой по Дзержинску. ' + seoDescription;
 
 		pageTitle.update(() => nameProduct);
 
