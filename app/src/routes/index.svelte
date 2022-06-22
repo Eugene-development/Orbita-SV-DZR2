@@ -2,8 +2,11 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Орбита-строй || База строительных материалов в Дзержинске Нижегородской области</title>
+	<meta
+		name="description"
+		content="Заказ строительных и отделочных материалов на базе стойматериалов в Дзержинске с доставкой. Наш интернет магазин строительный предложит вам широчайший ассортимент и низкие цены. Есть стройбаза в черте города."
+	/>
 </svelte:head>
 
 <div class="">
@@ -31,22 +34,31 @@
 
 	<div class="relative">
 		<div class=" sm:px-6 lg:px-8">
-			<div class="relative shadow-xl sm:rounded-lg sm:overflow-hidden">
+			<div class="relative shadow-xl sm:overflow-hidden sm:rounded-lg">
 				<div class="absolute inset-0">
-					<img class="h-full w-full object-cover" src="https://storage.yandexcloud.net/brand-logo/orbita/brand/mainfoto.jpeg" alt="Стройматериалы в Нижнем Новгороде">
-					<div class="absolute inset-0 bg-gray-600 mix-blend-multiply"></div>
+					<img
+						class="h-full w-full object-cover"
+						src="https://storage.yandexcloud.net/brand-logo/orbita/brand/mainfoto.jpeg"
+						alt="Стройматериалы в Нижнем Новгороде"
+					/>
+					<div class="absolute inset-0 bg-gray-600 mix-blend-multiply" />
 				</div>
 				<div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
 					<h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
 						<span class="block text-white">База строительных и отделочных материалов</span>
 						<span class="block text-gray-300">в Дзержинске</span>
 					</h1>
-					<p class="mt-6 p-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl bg-gray-800 bg-opacity-30">Оптовая и розничная продажа<br />
-						строительных и отделочных материалов со складов в Дзержинске. <br> Широкий ассортимент и доступные цены.</p>
-					<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-						<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-<!--							<button on:click={ changeButtonVisibleCatalog } class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"> Каталог </button>-->
-<!--							<a href="/blog" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-800 bg-opacity-80 hover:bg-opacity-70 sm:px-8"> Наш блог </a>-->
+					<p
+						class="mx-auto mt-6 max-w-lg bg-gray-800 bg-opacity-30 p-6 text-center text-xl text-white sm:max-w-3xl"
+					>
+						Оптовая и розничная продажа<br />
+						строительных и отделочных материалов со складов в Дзержинске. <br /> Широкий ассортимент
+						и доступные цены.
+					</p>
+					<div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
+						<div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
+							<!--							<button on:click={ changeButtonVisibleCatalog } class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"> Каталог </button>-->
+							<!--							<a href="/blog" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-800 bg-opacity-80 hover:bg-opacity-70 sm:px-8"> Наш блог </a>-->
 						</div>
 					</div>
 				</div>
@@ -250,9 +262,7 @@
 
 	<section class="bg-gray-900">
 		<div class="md:grid md:grid-cols-2">
-			<div
-				class="py-12 px-12 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 "
-			>
+			<div class="py-12 px-12 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 ">
 				<div class="text-2xl text-gray-100 md:flex-shrink-0">
 					<h2>ООО "РемСтройМонтаж"</h2>
 					<!--            <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-indigo-300.svg" alt="Tuple">-->
@@ -290,9 +300,7 @@
 					</footer>
 				</blockquote>
 			</div>
-			<div
-				class="border-t-2 py-12 px-12 md:border-t-0 md:border-l md:py-16 "
-			>
+			<div class="border-t-2 py-12 px-12 md:border-t-0 md:border-l md:py-16 ">
 				<div class="text-2xl text-gray-100 md:flex-shrink-0">
 					<h2>ООО "ПСГ" Химрегион</h2>
 					<!--            <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-indigo-300.svg" alt="Workcation">-->
@@ -311,8 +319,9 @@
 						<br />
 						<p class="relative">
 							ООО "ПСГ" Химрегион сотрудничает с "Орбита-Строй" с 2016 года. Хотим от всей души
-							поблагодарить Вас за внимательное отношение к своим клиентам и профессионализм. Довольны обилием ассортимента, постоянными акциями и низкими ценами. Очень
-							надеемся на дальнейшее взаимовыгодное сотрудничество с Вами и вашим коллективом.
+							поблагодарить Вас за внимательное отношение к своим клиентам и профессионализм.
+							Довольны обилием ассортимента, постоянными акциями и низкими ценами. Очень надеемся на
+							дальнейшее взаимовыгодное сотрудничество с Вами и вашим коллективом.
 						</p>
 					</div>
 					<footer class="mt-8">
