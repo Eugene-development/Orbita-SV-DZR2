@@ -63,7 +63,7 @@
 								</p>
 								<p class="flex text-base text-gray-100 hover:text-white">
 									<svg
-										class="my-auto mr-2 h-5 w-5 text-red-800"
+										class="my-auto mr-2 h-5 w-5 text-red-800 hidden md:block"
 										fill="none"
 										stroke="currentColor"
 										viewBox="0 0 24 24"
@@ -80,7 +80,7 @@
 								</p>
 								<p class="flex text-base text-gray-100 hover:text-white">
 									<svg
-										class="my-auto mr-2 h-5 w-5 text-red-800"
+										class="my-auto mr-2 h-5 w-5 text-red-800 hidden md:block"
 										xmlns="http://www.w3.org/2000/svg"
 										fill="none"
 										viewBox="0 0 24 24"
@@ -102,7 +102,7 @@
 									target="_blank"
 								>
 									<svg
-										class="my-auto mr-2 h-5 w-5 text-red-800"
+										class="my-auto mr-2 h-5 w-5 text-red-800 hidden md:block"
 										xmlns="http://www.w3.org/2000/svg"
 										fill="none"
 										viewBox="0 0 24 24"
@@ -129,7 +129,7 @@
 							<ul class="mt-4 space-y-4">
 								<li class="flow-root">
 									<a
-										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
+										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/partner/yurlica"
 									>
 										<!-- Heroicon name: information-circle -->
@@ -148,13 +148,13 @@
 												stroke-width="2"
 											/>
 										</svg>
-										<span class="ml-4 text-gray-300">Партнёры</span>
+										<span class="ml-1 md:ml-2 text-gray-300">Партнёры</span>
 									</a>
 								</li>
 
 								<li class="flow-root">
 									<a
-										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
+										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/delivery"
 									>
 										<!-- Heroicon name: office-building -->
@@ -173,13 +173,13 @@
 												stroke-width="2"
 											/>
 										</svg>
-										<span class="ml-4 text-gray-300">Доставка</span>
+										<span class="ml-1 md:ml-2 text-gray-300">Доставка</span>
 									</a>
 								</li>
 
 								<li class="flow-root">
 									<a
-										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
+										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/payment"
 									>
 										<!-- Heroicon name: newspaper -->
@@ -198,13 +198,13 @@
 												stroke-width="2"
 											/>
 										</svg>
-										<span class="ml-4 text-gray-300">Оплата</span>
+										<span class="ml-1 md:ml-2 text-gray-300">Оплата</span>
 									</a>
 								</li>
 
 								<li class="flow-root">
 									<a
-										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
+										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/testimonials"
 									>
 										<!-- Heroicon name: briefcase -->
@@ -223,7 +223,7 @@
 												stroke-width="2"
 											/>
 										</svg>
-										<span class="ml-4 text-gray-300">Отзывы</span>
+										<span class="ml-1 md:ml-2 text-gray-300">Отзывы</span>
 									</a>
 								</li>
 							</ul>
@@ -236,7 +236,7 @@
 							<ul class="mt-4 space-y-4">
 								<li class="flow-root">
 									<a
-										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
+										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/yurlica"
 									>
 										<!-- Heroicon name: user-group -->
@@ -255,13 +255,13 @@
 												stroke-width="2"
 											/>
 										</svg>
-										<span class="ml-4 text-gray-300">Юр. лица</span>
+										<span class="ml-1 md:ml-2 text-gray-300">Юр. лица</span>
 									</a>
 								</li>
 
 								<li class="flow-root">
 									<a
-										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
+										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/brigadi"
 									>
 										<!-- Heroicon name: globe-alt -->
@@ -280,13 +280,13 @@
 												stroke-width="2"
 											/>
 										</svg>
-										<span class="ml-4 text-gray-300">Стройбригады</span>
+										<span class="ml-1 md:ml-2 text-gray-300">Стройбригады</span>
 									</a>
 								</li>
 
 								<li class="flow-root">
 									<a
-										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
+										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/ip"
 									>
 										<!-- Heroicon name: bookmark-alt -->
@@ -305,13 +305,13 @@
 												stroke-width="2"
 											/>
 										</svg>
-										<span class="ml-4 text-gray-300">Продавцы</span>
+										<span class="ml-1 md:ml-2 text-gray-300">Продавцы</span>
 									</a>
 								</li>
 
 								<li class="flow-root">
 									<a
-										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900"
+										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/fizlica"
 									>
 										<!-- Heroicon name: desktop-computer -->
@@ -330,7 +330,7 @@
 												stroke-width="2"
 											/>
 										</svg>
-										<span class="ml-4 text-gray-300">Физ. лица</span>
+										<span class="ml-1 md:ml-2 text-gray-300">Физ. лица</span>
 									</a>
 								</li>
 							</ul>

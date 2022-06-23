@@ -157,7 +157,7 @@
 							</svg>
 						</div>
 						<a
-							href="/product/{slug}"
+							href="/shop/product/{slug}"
 							sveltekit:prefetch
 							sveltekit:noscroll
 							on:click={changeVisibleFormSearch}
@@ -172,7 +172,7 @@
 						</a>
 					</li>
 				{:else}
-					<div class="py-14 px-6 text-center text-sm sm:px-14 ">
+					<div class="py-14 mr-6 text-center text-sm sm:px-14 ">
 						<!-- Heroicon name: outline/exclamation-circle -->
 						<svg
 							class="mx-auto h-6 w-6 text-gray-400"
