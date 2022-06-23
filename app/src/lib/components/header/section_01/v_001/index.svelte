@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { clickOutside } from '$lib/functions/click_outside';
 
-	// import MobileMenu from "./mobile/index.svelte";
+	import MobileMenu from "./mobile/index.svelte";
 	// import {useHead} from "$lib/use/content/header";
 
 	import { useHead } from '../../content/index.js';
@@ -733,7 +733,7 @@
 			</div>
 		</div>
 
-		<!--        <MobileMenu/>-->
+		<MobileMenu/>
 	</div>
 
 	<div class="bg-gray-100 pt-6 sm:pt-8 ">
