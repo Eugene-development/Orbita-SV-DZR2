@@ -25,6 +25,7 @@
 	import axios from 'axios';
 	import pkg from 'lodash';
 
+
 	const { invert, invertToFalse, invertToTrue } = useVisible;
 
 	const changeVisibleInformationMenu = () => {
