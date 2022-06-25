@@ -25,7 +25,6 @@
 	import axios from 'axios';
 	import pkg from 'lodash';
 
-
 	const { invert, invertToFalse, invertToTrue } = useVisible;
 
 	const changeVisibleInformationMenu = () => {
@@ -142,14 +141,14 @@
   }
   ```
 -->
-	<nav class="bg-gray-900">
+	<nav class="bg-cyan-600">
 		<div class="mx-auto hidden max-w-7xl px-2 sm:px-10 lg:block">
 			<div class="relative flex h-12 items-center justify-between">
 				<div class="flex items-center px-1 lg:px-0">
 					<div class=" ">
 						<div class="flex space-x-1">
 							<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-							<!--                            <svg class="h-5 w-5 text-red-400" fill="none" stroke="currentColor"-->
+							<!--                            <svg class="h-5 w-5 text-red-500" fill="none" stroke="currentColor"-->
 							<!--                                 stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">-->
 							<!--                                <path d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"-->
 							<!--                                      stroke-linecap="round"-->
@@ -158,7 +157,7 @@
 							<!--                            <p class="text-gray-300 pr-3 rounded-md text-base font-medium">8 (800) 555-8-111</p>-->
 
 							<svg
-								class="h-6 w-6 text-red-400"
+								class="h-6 w-6 text-red-500"
 								fill="none"
 								stroke="currentColor"
 								stroke-width="2"
@@ -171,12 +170,12 @@
 									stroke-linejoin="round"
 								/>
 							</svg>
-							<a href="tel:+79023033654" class="rounded-md pr-2 text-base font-medium text-gray-300"
+							<a href="tel:+79023033654" class="rounded-md pr-2 text-base font-medium text-white"
 								>8 (902) 303-36-54</a
 							>
 
 							<svg
-								class="h-6 w-6 text-red-400"
+								class="h-6 w-6 text-red-500"
 								fill="none"
 								stroke="currentColor"
 								stroke-width="2"
@@ -189,12 +188,12 @@
 									stroke-linejoin="round"
 								/>
 							</svg>
-							<a href="tel:+79306888862" class="rounded-md pr-2 text-base font-medium text-gray-300"
+							<a href="tel:+79306888862" class="rounded-md pr-2 text-base font-medium text-white"
 								>8 (930) 688-88-62</a
 							>
 
 							<svg
-								class="h-6 w-6 text-red-400"
+								class="h-6 w-6 text-red-500"
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
 								viewBox="0 0 24 24"
@@ -208,7 +207,7 @@
 									d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
 								/>
 							</svg>
-							<span class="rounded-md pr-2 text-base font-medium text-gray-300"
+							<span class="rounded-md pr-2 text-base font-medium text-white"
 								>info@orbita-stroy.com</span
 							>
 						</div>
@@ -255,7 +254,7 @@
 						</div>
 
 						<button
-							class="flex-shrink-0 rounded-full bg-red-400 p-1 text-gray-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+							class="flex-shrink-0 rounded-full bg-red-500 p-1 text-gray-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
 							type="button"
 						>
 							<span class="sr-only">View notifications</span>
@@ -287,7 +286,7 @@
 							<!--                            </div>-->
 
 							<svg
-								class="h-5 w-5 text-red-400"
+								class="h-5 w-5 text-red-500"
 								fill="currentColor"
 								viewBox="0 0 20 20"
 								xmlns="http://www.w3.org/2000/svg"
@@ -329,7 +328,7 @@
 					<!--                        <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">-->
 					<!--                    </div>-->
 					<svg
-						class="h-6 w-6 text-red-400"
+						class="h-6 w-6 text-red-500"
 						fill="currentColor"
 						viewBox="0 0 20 20"
 						xmlns="http://www.w3.org/2000/svg"
@@ -369,7 +368,7 @@
 					<!--                        <div class="text-sm font-medium text-gray-400">tom@example.com</div>-->
 					<!--                    </div>-->
 					<button
-						class="flex-shrink-0 rounded-full bg-red-400 p-1 text-slate-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+						class="flex-shrink-0 rounded-full bg-red-500 p-1 text-slate-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
 						type="button"
 					>
 						<span class="sr-only">View notifications</span>
@@ -403,7 +402,7 @@
 				<div class="mx-auto flex items-center justify-between">
 					<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 					<!--                    <div class="flex">-->
-					<!--                        <svg class="hidden sm:block h-4 sm:h-5 md:h-6 w-4 sm:w-5 md:w-6 text-red-400" fill="none"-->
+					<!--                        <svg class="hidden sm:block h-4 sm:h-5 md:h-6 w-4 sm:w-5 md:w-6 text-red-500" fill="none"-->
 					<!--                             stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"-->
 					<!--                             xmlns="http://www.w3.org/2000/svg">-->
 					<!--                            <path d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"-->
@@ -416,7 +415,7 @@
 
 					<div class="flex">
 						<svg
-							class="h-5 w-4 text-red-400 sm:h-5 sm:w-5 md:h-6 md:w-6"
+							class="h-5 w-4 text-red-500 sm:h-5 sm:w-5 md:h-6 md:w-6"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -437,7 +436,7 @@
 
 					<div class="flex">
 						<svg
-							class="h-5 w-4 text-red-400 sm:h-5 sm:w-5 md:h-6 md:w-6"
+							class="h-5 w-4 text-red-500 sm:h-5 sm:w-5 md:h-6 md:w-6"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -499,7 +498,7 @@
 							/>
 						</svg>
 						Корзина (
-						<div class="mx-1 animate-pulse text-red-400">{countLengthCart}</div>
+						<div class="mx-1 text-red-500">{countLengthCart}</div>
 						)
 					</a>
 				</div>
@@ -707,7 +706,7 @@
 					</nav>
 					<div class="flex items-center md:ml-12">
 						<a
-							class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-gray-900 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-700/50 hover:bg-gray-800"
+							class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-600 px-4 py-1 text-base font-medium text-white shadow-lg shadow-cyan-700/50 hover:bg-cyan-800"
 							href="/shop/cart"
 							sveltekit:noscroll
 						>
@@ -726,7 +725,7 @@
 								/>
 							</svg>
 							Корзина (
-							<div class="mx-1 animate-pulse text-red-400">{countLengthCart}</div>
+							<div class="mx-1 text-red-500">{countLengthCart}</div>
 							)
 						</a>
 					</div>
@@ -790,7 +789,7 @@
 											slug ===
 										$page.url.pathname
 											? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900'
-											: 'bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900'} "
+											: 'bg-gradient-to-r from-cyan-900 via-cyan-800 to-cyan-900'} "
 									>
 										<span
 											class="delay-50 duration-50 order-2 text-sm font-medium leading-6 tracking-wider text-slate-50 transition ease-in-out hover:scale-110"
@@ -813,10 +812,10 @@
 						<div class="mx-auto w-full ">
 							<div
 								on:click={changeButtonVisibleCatalog}
-								class="rounded-md border border-gray-200 bg-gradient-to-r from-gray-900 via-gray-900 to-gray-900 text-center shadow-md shadow-gray-700/50 hover:from-gray-800 hover:via-gray-800 hover:to-gray-800 "
+								class="rounded-md border border-gray-200 bg-gradient-to-r from-cyan-700 via-cyan-600 to-cyan-700 text-center shadow-md shadow-gray-700/50 hover:from-cyan-800 hover:via-cyan-700 hover:to-cyan-800 "
 							>
 								<p class="p-3">
-									<span class="text-2xl font-medium tracking-wider text-gray-50">
+									<span class="text-2xl font-medium tracking-wider text-white">
 										Каталог стройматериалов
 									</span>
 								</p>
