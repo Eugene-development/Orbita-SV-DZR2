@@ -30,7 +30,7 @@
 
 	let value = '';
 	let result = [];
-	$: if (value.length >= 4) {
+	$: if (value.length >= 3) {
 		let allProduct;
 		allProd.subscribe((value) => (allProduct = value));
 		const search = (query) => allProduct.filter(({ name }) => name.toLowerCase().includes(query));
