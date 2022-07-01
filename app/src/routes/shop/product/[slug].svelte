@@ -219,7 +219,7 @@
 						</div>
 						<div class="flex">
 							<span
-								class="title-font rounded-2xl bg-indigo-800 py-2 px-4 text-lg font-medium text-slate-100"
+								class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
 								>{size[0].price.price} р/{unit}.</span
 							>
 							{#if !idProductsInCart.some((arrVal) => id === arrVal)}
@@ -246,7 +246,7 @@
 								</button>
 							{:else}
 								<button
-									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-indigo-800 py-2 px-6 text-base font-medium text-slate-100 "
+									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-cyan-900 py-2 px-6 text-base font-medium text-slate-100 "
 								>
 									<svg
 										class="h-5 w-5 text-red-400"

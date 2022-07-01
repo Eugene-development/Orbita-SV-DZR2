@@ -143,7 +143,7 @@
 								<dt class="sr-only">Product</dt>
 								<dd class="mt-4">
 									<span
-										class="rounded-full bg-indigo-800 px-3 py-1.5 text-base font-medium text-slate-100"
+										class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
 										>{size[0].price.price}
 										р/{unit}</span
 									>
@@ -177,7 +177,7 @@
 									</button>
 								{:else}
 									<button
-										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent bg-indigo-800 py-4 text-sm font-medium text-slate-50 hover:text-slate-100 focus:outline-none"
+										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent bg-cyan-900 py-4 text-sm font-medium text-slate-50 hover:text-slate-100 focus:outline-none"
 									>
 										<svg
 											class="h-5 w-5 text-red-300"
