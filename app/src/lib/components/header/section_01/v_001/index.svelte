@@ -102,7 +102,7 @@
 <div class="relative bg-gray-800">
 	<div class="max-w-7xl mx-auto py-2 px-3 sm:px-6 lg:px-8">
 		<div class="pr-16 sm:text-center sm:px-16">
-			<p class="font-medium text-white">
+			<p class="font-medium text-white antialiased">
 				<span class="md:hidden"> Снижены цены на древесину! </span>
 				<span class="hidden md:inline"> Хорошие новости! Снижены цены на древесину. </span>
 				<span class="block sm:ml-2 sm:inline-block">
@@ -767,7 +767,7 @@
 		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 			<div class="mx-auto max-w-4xl text-center">
 				<h2
-					class="text-3xl font-extrabold lowercase text-slate-900 first-letter:uppercase sm:text-4xl lg:text-5xl"
+					class="text-3xl font-extrabold lowercase text-slate-900 first-letter:uppercase sm:text-4xl lg:text-5xl antialiased"
 				>
 					{$pageTitle}
 				</h2>
@@ -794,7 +794,7 @@
 										class="flex flex-col border border-gray-200 bg-gradient-to-tr from-gray-500 via-gray-900 to-gray-700 p-4 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
 									>
 										<span
-											class="order-2 text-sm font-medium leading-6 tracking-wider text-slate-50"
+											class="order-2 text-sm font-medium leading-6 tracking-wider text-slate-50 antialiased"
 										>
 											{name}
 										</span>
