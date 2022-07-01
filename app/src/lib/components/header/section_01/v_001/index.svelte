@@ -98,6 +98,8 @@
 	// pageTitle.subscribe(value => showPageTitle = value)
 
 	const changeButtonVisibleCatalog = () => buttonVisibleCatalog.update(invertToTrue);
+	const changeVisibleInfoPanel = () => infoPanel.update(invertToFalse);
+
 </script>
 
 {#if $infoPanel}
@@ -113,7 +115,7 @@
 			</p>
 		</div>
 		<div class="absolute inset-y-0 right-0 pt-1 pr-1 flex items-start sm:pt-1 sm:pr-2 sm:items-start">
-			<button type="button" class="flex p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white">
+			<button type="button" on:click={changeVisibleInfoPanel} class="flex p-2 rounded-md hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-white">
 				<span class="sr-only">Dismiss</span>
 				<!-- Heroicon name: outline/x -->
 				<svg class="h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
