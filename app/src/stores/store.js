@@ -5,6 +5,8 @@ export const mobileMenu = writable(false);
 export const formPhone = writable(false);
 export const formEmail = writable(true);
 export const formSearch = writable(false);
+export const infoPanel = writable(true);
+
 
 export const descriptionInfo = writable(true);
 export const paymentInfo = writable(false);

@@ -17,7 +17,8 @@
 		informationMenu,
 		lengthCart,
 		mobileMenu,
-		pageTitle
+		pageTitle,
+		infoPanel
 	} from '../../../../../stores/store.js';
 	import { onMount } from 'svelte';
 	import { browser } from '$app/env';
@@ -99,6 +100,7 @@
 	const changeButtonVisibleCatalog = () => buttonVisibleCatalog.update(invertToTrue);
 </script>
 
+{#if $infoPanel}
 <div class="relative bg-gray-800">
 	<div class="max-w-7xl mx-auto py-2 px-3 sm:px-6 lg:px-8">
 		<div class="pr-16 sm:text-center sm:px-16">
@@ -121,7 +123,7 @@
 		</div>
 	</div>
 </div>
-
+	{/if}
 
 <header>
 	<!-- This example requires Tailwind CSS v2.0+ -->
