@@ -106,7 +106,7 @@
 				<span class="md:hidden"> Снижены цены на древесину! </span>
 				<span class="hidden md:inline"> Хорошие новости! Снижены цены на древесину. </span>
 				<span class="block sm:ml-2 sm:inline-block">
-          <a href="#" class="text-white font-bold underline"> Подробнее <span aria-hidden="true">&rarr;</span></a>
+          <a href="/shop/category/pilomaterial" class="text-white font-bold underline"> Подробнее <span aria-hidden="true">&rarr;</span></a>
         </span>
 			</p>
 		</div>

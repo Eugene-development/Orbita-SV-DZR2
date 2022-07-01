@@ -27,7 +27,7 @@
 			nameRubric +
 			' недорого со скидками.';
 
-		// pageTitle.update(() => nameRubric);
+		pageTitle.update(() => nameRubric);
 
 		return {
 			props: {
