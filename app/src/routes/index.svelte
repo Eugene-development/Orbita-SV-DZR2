@@ -66,7 +66,7 @@
 		</div>
 	</div>
 
-	<div class="my-24 bg-indigo-50 pb-16 lg:relative lg:z-10 lg:pb-0">
+	<div class="my-24 bg-gray-50 pb-16 lg:relative lg:z-10 lg:pb-0">
 		<!--    <div class="my-24 pb-16 bg-gradient-to-r from-white to-indigo-900 lg:pb-0 lg:z-10 lg:relative">-->
 		<div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
 			<div class="relative lg:-my-8">
@@ -262,7 +262,7 @@
 
 	<section class="bg-gray-900">
 		<div class="md:grid md:grid-cols-2">
-			<div class="py-12 px-12 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 ">
+			<div class="py-12 px-12 md:flex md:flex-col md:border-r md:border-cyan-900 md:py-16 ">
 				<div class="text-2xl text-gray-100 md:flex-shrink-0">
 					<h2>ООО "РемСтройМонтаж"</h2>
 					<!--            <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-indigo-300.svg" alt="Tuple">-->
@@ -413,7 +413,7 @@
 				<div class="mt-8 lg:mt-0">
 					<div class="mx-auto max-w-prose text-base lg:max-w-none">
 						<p
-							class="prose prose-indigo mx-auto mt-1 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none"
+							class="prose prose-cyan mx-auto mt-1 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none"
 						>
 							Компания «Орбита Строй» – это не просто стройбаза, это надежный партнер,
 							сотрудничающий с организациями, строительно-ремонтными бригадами, частными лицами и
@@ -422,7 +422,7 @@
 						</p>
 					</div>
 					<div
-						class="prose prose-indigo mx-auto mt-1 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none"
+						class="prose prose-cyan mx-auto mt-1 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none"
 					>
 						<p>
 							В перечне товаров базы «Орбита Строй» представлено все необходимое для комплектации
