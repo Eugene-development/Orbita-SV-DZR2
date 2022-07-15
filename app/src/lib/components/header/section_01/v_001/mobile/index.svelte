@@ -73,6 +73,33 @@
                             <div class="ml-4 text-base font-medium text-gray-900">Компания</div>
                         </a>
 
+                        <a on:click={ handleMenu } class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50" href="/blog">
+                            <div
+                                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                                <!-- Heroicon name: outline/shield-check -->
+                                <svg aria-hidden="true" class="h-6 w-6" fill="none" stroke="currentColor"
+                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round"
+                                          stroke-width="2" />
+                                </svg>
+                            </div>
+                            <div class="ml-4 text-base font-medium text-gray-900">Блог</div>
+                        </a>
+
+                        <a on:click={ handleMenu } class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50" href="/information/action">
+                            <div
+                                    class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                                <!-- Heroicon name: outline/shield-check -->
+                                <svg aria-hidden="true" class="h-6 w-6" fill="none" stroke="currentColor"
+                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round"
+                                          stroke-width="2" />
+                                </svg>
+                            </div>
+                            <div class="ml-4 text-base font-medium text-gray-900">Акции</div>
+                        </a>
+
+
                         <a on:click={ handleMenu } class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50" href="/contact">
                             <div
                               class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
@@ -117,9 +144,9 @@
                     <a on:click={ handleMenu } href="{href}" class="rounded-md text-base font-medium text-gray-900 hover:text-gray-700"> {displayName} </a>
                 {/each}
             </div>
-            <div class="mt-6">
-                <a on:click={ handleMenu } href="/blog" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Наш Блог </a>
-            </div>
+<!--            <div class="mt-6">-->
+<!--                <a on:click={ handleMenu } href="/blog" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Наш Блог </a>-->
+<!--            </div>-->
         </div>
     </div>
 </div>
