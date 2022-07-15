@@ -1,3 +1,10 @@
+<script>
+	import { pageTitle } from '$stores/store.js';
+
+	pageTitle.update(() => 'Компания');
+
+</script>
+
 <svelte:head>
 	<title>Орбита-строй || О нашей компании - магазине строительных и отделочных материалов</title>
 	<meta

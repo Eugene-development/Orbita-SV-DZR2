@@ -1,4 +1,8 @@
 <script>
+	import { pageTitle } from '$stores/store.js';
+
+	pageTitle.update(() => 'Строительная база');
+
 </script>
 
 <svelte:head>

@@ -1,5 +1,5 @@
 <script>
-	import { pageTitle } from '../../stores/store.js';
+	import { pageTitle } from '$stores/store.js';
 
 	pageTitle.update(() => 'Блог');
 </script>

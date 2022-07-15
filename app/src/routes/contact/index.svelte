@@ -1,3 +1,10 @@
+<script>
+	import { pageTitle } from '$stores/store.js';
+
+	pageTitle.update(() => 'Контакты');
+
+</script>
+
 <svelte:head>
 	<title
 		>Орбита-Строй || Контакты магазина и базы строительных и отделочных материалов в Дзержинске</title
