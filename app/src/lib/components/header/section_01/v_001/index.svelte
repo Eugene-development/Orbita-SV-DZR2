@@ -808,7 +808,7 @@
 		{#if $buttonVisibleCatalog}
 			<div class="mt-8 bg-white pb-4 sm:pb-8">
 				<div class="relative">
-					<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-gray-100" />
+					<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-gray-50" />
 					<!--                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div>-->
 					<div class="relative mx-auto max-w-full px-4 sm:px-6 lg:px-8">
 						<div class="mx-auto w-full">
@@ -857,7 +857,7 @@
 		{:else}
 			<div class="mt-8 bg-white pb-4 sm:pb-8">
 				<div class="relative">
-					<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-gray-100" />
+					<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-gray-50" />
 					<!--                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div>-->
 					<div class="relative mx-auto max-w-full px-4 sm:px-6 lg:px-8 ">
 						<div class="mx-auto w-full ">
