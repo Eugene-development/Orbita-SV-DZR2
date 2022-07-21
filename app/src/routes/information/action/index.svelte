@@ -17,8 +17,8 @@
 <div>
 
 
-    {#each actions as {action, price, description}}
-        <div class="py-8 sm:py-12">
+    {#each actions as {action, price, description, link}}
+        <div class=" py-8 sm:py-12">
             <div class="relative sm:py-16">
                 <div aria-hidden="true" class="hidden sm:block">
                     <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl"></div>
@@ -39,7 +39,7 @@
                                 <path class="text-cyan-800 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
                             </svg>
                         </div>
-                        <div class="relative">
+                        <a href="{link}" class="relative">
                             <div class="sm:text-center">
                                 <h2 class="text-2xl font-extrabold text-white tracking-tight md:text-5xl">
                                     {action}
@@ -50,7 +50,7 @@
                                     {description}
                                 </p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

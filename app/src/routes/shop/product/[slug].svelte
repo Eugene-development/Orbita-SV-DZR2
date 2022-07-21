@@ -202,7 +202,7 @@
 							</p>
 						{/if}
 
-						<a sveltekit:prefetch sveltekit:noscroll href="/products/{slugCategory}">
+						<a sveltekit:prefetch sveltekit:noscroll href="/shop/products/{slugCategory}">
 							<div class="flex border-t border-slate-200 py-2">
 								<span class="text-slate-500">Категория:</span>
 								<span class="ml-auto text-sm text-red-500 hover:text-red-600">{nameCategory}</span>

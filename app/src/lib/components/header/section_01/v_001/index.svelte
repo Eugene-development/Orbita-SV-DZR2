@@ -787,7 +787,7 @@
 		<MobileMenu/>
 	</div>
 
-	<div class="bg-gray-100 pt-6 sm:pt-8 ">
+	<div class="bg-gray-50 pt-6 sm:pt-8 ">
 		<!--    <div class="bg-gradient-to-r from-gray-200 via-slate-50 to-gray-200 pt-6 sm:pt-8 ">-->
 		<!--    <div class="bg-hero-pattern pt-6 sm:pt-8 ">-->
 
