@@ -152,7 +152,7 @@
 
 		<section class="body-font overflow-hidden text-slate-600">
 			<div class="container mx-auto px-8 py-12">
-				<div class="mx-auto flex flex-wrap lg:w-4/5">
+				<div class="mx-auto flex flex-wrap">
 					<div class="mb-6 w-full lg:mb-0 lg:w-1/2 lg:py-6 lg:pr-12">
 						<h2 class="title-font text-base tracking-widest text-red-500">НАИМЕНОВАНИЕ</h2>
 						<h1
