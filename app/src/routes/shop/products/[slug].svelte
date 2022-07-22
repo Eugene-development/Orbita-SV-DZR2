@@ -214,7 +214,6 @@
 								<!--                </div>-->
 								<a
 									sveltekit:prefetch
-									sveltekit:noscroll
 									href="/shop/product/{slug}"
 									class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm  font-medium text-slate-700 hover:text-slate-500"
 								>
