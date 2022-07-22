@@ -191,8 +191,8 @@
   }
   ```
 -->
-	<nav class="bg-cyan-600">
-		<div class="mx-auto hidden max-w-7xl px-2 sm:px-10 lg:block">
+	<nav class="bg-cyan-700">
+		<div class="mx-auto hidden max-w-full px-2 sm:px-8 lg:px-10 lg:block">
 			<div class="relative flex h-12 items-center justify-between">
 				<div class="flex items-center px-1 lg:px-0">
 					<div class=" ">
@@ -514,7 +514,7 @@
 		<div aria-hidden="true" class="pointer-events-none absolute inset-0 z-30 shadow" />
 		<div class="relative z-20">
 			<div
-				class="mx-auto flex max-w-7xl items-center justify-between px-2 py-4 sm:px-6 sm:py-3 md:space-x-8 lg:px-8"
+				class="mx-auto flex max-w-full items-center justify-between px-2 py-4 sm:px-6 sm:py-3 md:space-x-8 lg:px-10"
 			>
 				<div>
 					<a class="flex" href="/">
@@ -757,7 +757,7 @@
 					</nav>
 					<div class="flex items-center md:ml-12">
 						<a
-							class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-600 px-4 py-1 text-base font-medium text-white shadow-lg shadow-cyan-700/50 hover:bg-cyan-800"
+							class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-700/50 hover:bg-gray-800"
 							href="/shop/cart"
 							sveltekit:noscroll
 						>
