@@ -107,8 +107,8 @@
 	<div class="max-w-7xl mx-auto py-2 px-3 sm:px-6 lg:px-8">
 		<div class="pr-16 sm:text-center sm:px-16">
 			<p class="font-medium text-white antialiased">
-				<span class="md:hidden">Специальные цены на утеплитель Роклайт.</span>
-				<span class="hidden md:inline"> Спецпредложение. Только по выходным! Специальные цены на утеплитель Роклайт.</span>
+				<span class="md:hidden">Специальные цены на утеплитель.</span>
+				<span class="hidden md:inline"> Спецпредложение. Только одну неделю! Специальные цены на утеплитель.</span>
 				<span class="block sm:ml-2 sm:inline-block">
           <a href="/information/action" class="text-white font-bold underline"> Подробнее <span aria-hidden="true">&rarr;</span></a>
         </span>
@@ -880,3 +880,4 @@
 
 	<Search />
 </header>
+

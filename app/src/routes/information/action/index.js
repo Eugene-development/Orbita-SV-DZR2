@@ -1,9 +1,9 @@
 const actions = [
     {
-        action: 'Утеплитель роклайт 50 мм',
-        price: '704 рубля',
-        description: 'Акция действует 23 и 24 июля',
-        link: '/shop/products/mineralno-bazaltovye-utepliteli'
+        action: 'Утеплитель Техноблок 1200х600х100',
+        price: '1535 рублей',
+        description: 'Акция действует одну неделю',
+        link: '/shop/product/uteplitel-texnoblok-standart-1200600100mm-0288-m3'
     },
     {
         action: 'Утеплитель роклайт 100 мм',
