@@ -5,12 +5,12 @@ const actions = [
         description: 'Акция действует одну неделю',
         link: '/shop/product/uteplitel-texnoblok-standart-1200600100mm-0288-m3'
     },
-    {
-        action: 'Утеплитель роклайт 100 мм',
-        price: '1180 рублей',
-        description: 'Акция действует 23 и 24 июля',
-        link: '/shop/products/mineralno-bazaltovye-utepliteli'
-    },
+    // {
+    //     action: 'Утеплитель роклайт 100 мм',
+    //     price: '1180 рублей',
+    //     description: 'Акция действует 23 и 24 июля',
+    //     link: '/shop/products/mineralno-bazaltovye-utepliteli'
+    // },
     {
         action: 'Пенопласт 25 плотности 100мм',
         price: '215 рублей',
