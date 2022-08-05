@@ -3,6 +3,12 @@
 
 	pageTitle.update(() => 'Строительная база');
 
+	import {Swiper_v2} from "symax/ui/broker"
+
+
+	import {content} from "./index.js";
+
+	const {content_Swiper_v2} = content
 </script>
 
 <svelte:head>
@@ -12,6 +18,9 @@
 		content="Заказ строительных и отделочных материалов на базе стойматериалов в Дзержинске с доставкой. Наш интернет магазин строительный предложит вам широчайший ассортимент и низкие цены. Есть стройбаза в черте города."
 	/>
 </svelte:head>
+
+
+
 
 <div class="">
 	<!--    <div class="my-10 max-w-1/2 mx-auto sm:px-6 lg:px-8">-->
@@ -36,6 +45,8 @@
 	<!--      </div>-->
 	<!--    </div>-->
 
+	<Swiper_v2 {content_Swiper_v2}/>
+
 	<div class="relative">
 		<div class=" sm:px-6 lg:px-8">
 			<div class="relative shadow-xl sm:overflow-hidden sm:rounded-lg">
@@ -45,7 +56,7 @@
 						src="https://storage.yandexcloud.net/brand-logo/orbita/brand/mainfoto.jpeg"
 						alt="Стройматериалы в Нижнем Новгороде"
 					/>
-					<div class="absolute inset-0 bg-gray-600 mix-blend-multiply" />
+					<div class="absolute inset-0 bg-gray-600 mix-blend-multiply"></div>
 				</div>
 				<div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
 					<h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
@@ -69,6 +80,9 @@
 			</div>
 		</div>
 	</div>
+
+
+
 
 	<div class="my-24 bg-gray-50 pb-16 lg:relative lg:z-10 lg:pb-0">
 		<!--    <div class="my-24 pb-16 bg-gradient-to-r from-white to-indigo-900 lg:pb-0 lg:z-10 lg:relative">-->

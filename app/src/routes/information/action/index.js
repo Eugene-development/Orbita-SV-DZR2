@@ -27,7 +27,7 @@ const actions = [
         action: 'Плита ОСБ 9мм',
         price: '530 рублей',
         description: 'Предложение ограничено',
-        link: '/shop//product/plita-osb-3-250012509mm-kronospan-gost-vlagostoikaya'
+        link: '/shop/product/plita-osb-3-250012509mm-kronospan-gost-vlagostoikaya'
     },
     {
         action: 'Софит-izol в (пароизоляция) 1,6м (35 м2)',

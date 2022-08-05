@@ -36,9 +36,11 @@
 		"@tailwindcss/aspect-ratio": "^0.4.0",
 		"@tailwindcss/forms": "^0.5.2",
 		"@tailwindcss/typography": "^0.5.2",
+		"axios": "^0.27.2",
 		"cookie": "^0.4.1",
 		"gsap": "^3.10.4",
 		"lodash": "^4.17.21",
-		"axios": "^0.27.2"
+		"swiper": "^8.3.2",
+		"symax": "latest"
 	}
 }
