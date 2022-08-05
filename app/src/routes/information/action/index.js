@@ -2,13 +2,13 @@ const actions = [
     {
         action: 'Утеплитель Техноблок 1200х600х100',
         price: '1290 рублей',
-        description: 'Акция действует одну неделю',
+        description: 'Только в эти выходные',
         link: '/shop/product/uteplitel-texnoblok-standart-1200600100mm-0288-m3'
     },
     {
         action: 'Утеплитель Техноблок 1200х600х50',
         price: '1290 рублей',
-        description: 'Акция действует одну неделю',
+        description: 'Только в эти выходные',
         link: '/shop/product/uteplitel-texnoblok-standart-120060050-mm-0288-m3'
     },
     // {
@@ -32,14 +32,26 @@ const actions = [
     {
         action: 'Софит-izol в (пароизоляция) 1,6м (35 м2)',
         price: '635 рублей',
-        description: 'Предложение ограничено',
+        description: 'Только в эти выходные',
         link: '/shop/product/sofit-izol-v-paroizolyaciya-16m-35-m2'
     },
     {
         action: 'Софит-izol d (гидро-пароизоляция) 1,5м (70 м2)',
         price: '1400 рублей',
-        description: 'Предложение ограничено',
+        description: 'Только в эти выходные',
         link: '/shop/product/sofit-izol-d-gidro-paroizolyaciya-15m-70-m2'
+    },
+    {
+        action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
+        price: '420 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
+    },
+    {
+        action: 'Пена пистолетная "kudo home 65" всесезонная',
+        price: '410 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya'
     },
 
     // {
