@@ -1,9 +1,15 @@
 const actions = [
     {
         action: 'Утеплитель Техноблок 1200х600х100',
-        price: '1535 рублей',
+        price: '1290 рублей',
         description: 'Акция действует одну неделю',
         link: '/shop/product/uteplitel-texnoblok-standart-1200600100mm-0288-m3'
+    },
+    {
+        action: 'Утеплитель Техноблок 1200х600х50',
+        price: '1290 рублей',
+        description: 'Акция действует одну неделю',
+        link: '/shop/product/uteplitel-texnoblok-standart-120060050-mm-0288-m3'
     },
     // {
     //     action: 'Утеплитель роклайт 100 мм',
