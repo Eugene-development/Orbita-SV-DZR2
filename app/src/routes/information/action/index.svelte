@@ -39,7 +39,7 @@
                                 <path class="text-cyan-800 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
                             </svg>
                         </div>
-                        <a href="{link}" class="relative">
+                        <a href="{link}" class="relative" sveltekit:prefetch>
                             <div class="sm:text-center">
                                 <h2 class="text-2xl font-extrabold text-white tracking-tight md:text-5xl">
                                     {action}
