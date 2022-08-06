@@ -29,15 +29,15 @@ const actions = [
         description: 'Предложение ограничено',
         link: '/shop/product/plita-osb-3-250012509mm-kronospan-gost-vlagostoikaya'
     },
-    {
-        action: 'Софит-izol в (пароизоляция) 1,6м (35 м2)',
-        price: '635 рублей',
-        description: 'Только в эти выходные',
-        link: '/shop/product/sofit-izol-v-paroizolyaciya-16m-35-m2'
-    },
+    // {
+    //     action: 'Софит-izol в (пароизоляция) 1,6м (35 м2)',
+    //     price: '635 рублей',
+    //     description: 'Только в эти выходные',
+    //     link: '/shop/product/sofit-izol-v-paroizolyaciya-16m-35-m2'
+    // },
     {
         action: 'Софит-izol d (гидро-пароизоляция) 1,5м (70 м2)',
-        price: '1400 рублей',
+        price: '635 рублей',
         description: 'Только в эти выходные',
         link: '/shop/product/sofit-izol-d-gidro-paroizolyaciya-15m-70-m2'
     },

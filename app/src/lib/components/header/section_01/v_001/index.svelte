@@ -108,7 +108,7 @@
 		<div class="pr-16 sm:text-center sm:px-16">
 			<p class="font-medium text-white antialiased">
 				<span class="md:hidden">Специальные цены на утеплитель 1290р.</span>
-				<span class="hidden md:inline"> Спецпредложение. Только в эти выходные! Специальные цены на утеплитель 1290р.</span>
+				<span class="hidden md:inline"> Спецпредложение. Только в эти выходные! Специальные цены на утеплитель 1290р и пароизоляцию 635р.</span>
 				<span class="block sm:ml-2 sm:inline-block">
           <a href="/information/action" class="text-white font-bold underline"> Подробнее <span aria-hidden="true">&rarr;</span></a>
         </span>

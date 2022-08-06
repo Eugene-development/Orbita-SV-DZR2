@@ -4,10 +4,7 @@
 	pageTitle.update(() => 'Строительная база');
 
 	import {Swiper_v2} from "symax/ui/broker"
-
-
 	import {content} from "./index.js";
-
 	const {content_Swiper_v2} = content
 </script>
 
