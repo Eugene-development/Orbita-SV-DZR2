@@ -110,9 +110,9 @@
 
 	<div class="p-8">
 		<div class="mb-8 text-center">
-			<h3 class="text-2xl  font-medium leading-6 text-gray-900">
-				{nameCategory} в Нижнем Новгороде
-			</h3>
+			<h2 class="text-2xl  font-medium leading-6 text-gray-900">
+				{nameCategory} в Дзержинске
+			</h2>
 			<p class="mt-2  text-base text-gray-500 ">
 				В данной категории вы можете купить <span class="lowercase">{nameCategory}</span> по низким ценам
 				с доставкой или самовывозом
