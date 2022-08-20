@@ -38,8 +38,8 @@ const actions = [
     // },
     {
         action: 'Плита ОСБ 9мм',
-        price: '520 рублей',
-        description: 'Предложение ограничено',
+        price: '510 рублей',
+        description: 'Только в эти выходные',
         link: '/shop/product/plita-osb-3-250012509mm-kronospan-gost-vlagostoikaya'
     },
     // {

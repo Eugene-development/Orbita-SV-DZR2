@@ -9,7 +9,7 @@ const content_Swiper_v2 = [
         link_Marketing_v2: '/shop/product/uteplitel-izoboks-50-mm'
     },
     {
-        title_Marketing_v2: 'Цена - 520 рублей',
+        title_Marketing_v2: 'Цена - 510 руб (в эти выходные)',
         description_Marketing_v2:
             'Плита осб-3 2500*1250*9мм kronospan гост (влагостойкая). ОСБ-3 (ОSB-3) 9x1250x2500 мм – представляет собой листовой облицовочный материал, предназначенный для черновых отделочных работ, а так же для оформления стен в некоторых дизайнах интерьеров.',
         img_Marketing_v2:
