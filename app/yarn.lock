@@ -1066,9 +1066,9 @@
     "ssr-window" "^4.0.2"
 
 "symax@latest":
-  "integrity" "sha512-PiGgzDg7Oj/N29K3aLxNoluCFinicHfHvFbJDrLvsxxuGkw47Al5eOvgVq5u6AUU3ZNcdpi3pA3pUyg5ksvWEA=="
-  "resolved" "https://registry.npmjs.org/symax/-/symax-0.0.38.tgz"
-  "version" "0.0.38"
+  "integrity" "sha512-nriBSBT89oMApW3dEGMGk+LfKAp2LOEGDZGlaD61GLakeBqAcpBcn4U5fpKmk9Jjf1GCjsmYY5NiKkNH8mGn/A=="
+  "resolved" "https://registry.npmjs.org/symax/-/symax-0.0.46.tgz"
+  "version" "0.0.46"
   dependencies:
     "@tailwindcss/aspect-ratio" "^0.4.0"
     "@tailwindcss/forms" "^0.5.2"

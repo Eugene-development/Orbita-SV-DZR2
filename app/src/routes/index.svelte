@@ -1,3 +1,15 @@
+
+<!--<script>-->
+<!--	import { pageTitle } from '$stores/store.js';-->
+
+<!--	pageTitle.update(() => 'Блог');-->
+<!--</script>-->
+
+<!--<svelte:head>-->
+<!--	<title>Орбита-Строй || Блог компании на тематику строительных и отделочных материалов</title>-->
+<!--	<meta name="description" content="Информационный посты от нашей компании по строительной теме" />-->
+<!--</svelte:head>-->
+
 <script>
 	import { pageTitle } from '$stores/store.js';
 
