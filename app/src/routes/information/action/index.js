@@ -1,5 +1,35 @@
 const actions = [
     {
+        action: 'Штукатурная смесь "кнауф ротбанд" белая (30 кг)',
+        price: '440 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
+    },
+    {
+        action: 'Утеплитель технониколь роклайт 1200*600*50',
+        price: '704 рубля',
+        description: 'Предложение ограничено',
+        link: '/shop/product/uteplitel-texnonikol-roklait-120060050'
+    },
+    {
+        action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
+        price: '420 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
+    },
+    {
+        action: 'Эпп xps30-200 техноплекс 1180*580*50-l',
+        price: '248 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
+    },
+    {
+        action: 'Пена пистолетная kudo proff 65+ всесезон',
+        price: '420 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/pena-pistoletnaya-kudo-proff-65-vsesezon'
+    },
+    {
         action: 'Утеплитель изобокс 50 мм',
         price: '905 рублей',
         description: 'Предложение ограничено',
