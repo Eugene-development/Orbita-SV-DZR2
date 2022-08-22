@@ -29,18 +29,18 @@ const actions = [
         description: 'Предложение ограничено',
         link: '/shop/product/pena-pistoletnaya-kudo-proff-65-vsesezon'
     },
-    {
-        action: 'Утеплитель изобокс 50 мм',
-        price: '905 рублей',
-        description: 'Предложение ограничено',
-        link: '/shop/product/uteplitel-izoboks-50-mm'
-    },
-    {
-        action: 'Утеплитель изобокс 100 мм',
-        price: '945 рублей',
-        description: 'Предложение ограничено',
-        link: '/shop/product/uteplitel-izoboks-100mm'
-    },
+    // {
+    //     action: 'Утеплитель изобокс 50 мм',
+    //     price: '905 рублей',
+    //     description: 'Предложение ограничено',
+    //     link: '/shop/product/uteplitel-izoboks-50-mm'
+    // },
+    // {
+    //     action: 'Утеплитель изобокс 100 мм',
+    //     price: '945 рублей',
+    //     description: 'Предложение ограничено',
+    //     link: '/shop/product/uteplitel-izoboks-100mm'
+    // },
 
     // {
     //     action: 'Утеплитель Техноблок 1200х600х100',
@@ -66,42 +66,42 @@ const actions = [
     //     description: 'Предложение ограничено',
     //     link: '/shop/products/penoplast'
     // },
-    {
-        action: 'Плита ОСБ 9мм',
-        price: '510 рублей',
-        description: 'Только в эти выходные',
-        link: '/shop/product/plita-osb-3-250012509mm-kronospan-gost-vlagostoikaya'
-    },
+    // {
+    //     action: 'Плита ОСБ 9мм',
+    //     price: '510 рублей',
+    //     description: 'Только в эти выходные',
+    //     link: '/shop/product/plita-osb-3-250012509mm-kronospan-gost-vlagostoikaya'
+    // },
     // {
     //     action: 'Софит-izol в (пароизоляция) 1,6м (35 м2)',
     //     price: '635 рублей',
     //     description: 'Только в эти выходные',
     //     link: '/shop/product/sofit-izol-v-paroizolyaciya-16m-35-m2'
     // },
-    {
-        action: 'Софит-izol d (гидро-пароизоляция) 1,5м (70 м2)',
-        price: '635 рублей',
-        description: 'Только в эти выходные',
-        link: '/shop/product/sofit-izol-d-gidro-paroizolyaciya-15m-70-m2'
-    },
-    {
-        action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
-        price: '420 рублей',
-        description: 'Предложение ограничено',
-        link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
-    },
-    {
-        action: 'Пена пистолетная "kudo home 65" всесезонная',
-        price: '410 рублей',
-        description: 'Предложение ограничено',
-        link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya'
-    },
-    {
-        action: 'Пена монтажная kudo',
-        price: '330 рублей',
-        description: 'Предложение ограничено',
-        link: '/shop/product/pena-montaznaya-kudo'
-    },
+    // {
+    //     action: 'Софит-izol d (гидро-пароизоляция) 1,5м (70 м2)',
+    //     price: '635 рублей',
+    //     description: 'Только в эти выходные',
+    //     link: '/shop/product/sofit-izol-d-gidro-paroizolyaciya-15m-70-m2'
+    // },
+    // {
+    //     action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
+    //     price: '420 рублей',
+    //     description: 'Предложение ограничено',
+    //     link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
+    // },
+    // {
+    //     action: 'Пена пистолетная "kudo home 65" всесезонная',
+    //     price: '410 рублей',
+    //     description: 'Предложение ограничено',
+    //     link: '/shop/product/pena-pistoletnaya-kudo-home-65-vsesezonnaya'
+    // },
+    // {
+    //     action: 'Пена монтажная kudo',
+    //     price: '330 рублей',
+    //     description: 'Предложение ограничено',
+    //     link: '/shop/product/pena-montaznaya-kudo'
+    // },
 
     // {
     //     action: 'Доска',
