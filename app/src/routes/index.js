@@ -22,7 +22,7 @@ const content_Swiper_v2 = [
         description_Marketing_v2:
             'Экструзионный пенополистирол "XPS ТЕХНОПЛЕКС" – это теплоизоляционные плиты, которые используются для утепления балкона, перегородок, в конструкции пола и «теплого пола». Является одним из лучших теплоизоляционных материалов для дачного и квартирного утепления. Предложение ограничено. Имеется доставка до объекта заказчика. Подробности и условия уточняйте у наших менеджеров. Предложение ограничено до конца августа. Звоните и заказывайте!',
         img_Marketing_v2:
-            'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png',
+            'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png',
         alt_Marketing_v2: 'Штукатурка',
         link_Marketing_v2: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
     },
