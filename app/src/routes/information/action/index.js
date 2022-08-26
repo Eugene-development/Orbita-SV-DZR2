@@ -19,7 +19,7 @@ const actions = [
     },
     {
         action: 'Эпп xps30-200 техноплекс 1180*580*50-l',
-        price: '248 рублей',
+        price: '256 рублей',
         description: 'Предложение ограничено',
         link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
     },
