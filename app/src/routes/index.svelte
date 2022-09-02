@@ -146,8 +146,8 @@
 
 
 
-				<div class="group relative drop-shadow-xl shadow-cyan-800">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80">
+				<div class="group relative ">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80 shadow-lg shadow-cyan-900">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
@@ -164,8 +164,8 @@
 					</div>
 				</div>
 
-				<div class="group relative drop-shadow-xl shadow-cyan-800">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80">
+				<div class="group relative ">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80 shadow-lg shadow-cyan-900">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
@@ -182,8 +182,8 @@
 					</div>
 				</div>
 
-				<div class="group relative drop-shadow-xl shadow-cyan-800">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80">
+				<div class="group relative ">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80 shadow-lg shadow-cyan-900">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
@@ -200,8 +200,8 @@
 					</div>
 				</div>
 
-				<div class="group relative drop-shadow-xl shadow-cyan-800">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80">
+				<div class="group relative ">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80 shadow-lg shadow-cyan-900">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
