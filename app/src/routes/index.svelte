@@ -41,10 +41,10 @@
 	<!--        $-->
 	<!--      </span>-->
 	<!--          </div>-->
-	<!--          <input type="text" id="price" class="focus:ring-red-500 focus:border-red-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="0.00">-->
+	<!--          <input type="text" id="price" class="focus:ring-cyan-500 focus:border-cyan-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="0.00">-->
 	<!--          <div class="absolute inset-y-0 right-0 flex items-center">-->
 	<!--            <label for="currency" class="sr-only">Категория</label>-->
-	<!--            <select id="Currency" class="focus:ring-red-500 focus:border-red-500 h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">-->
+	<!--            <select id="Currency" class="focus:ring-cyan-500 focus:border-cyan-500 h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">-->
 	<!--              <option>Категория</option>-->
 	<!--              <option>CAD</option>-->
 	<!--              <option>EUR</option>-->
@@ -56,11 +56,11 @@
 
 	<div class="ml-8 my-6 text-base text-left">
 		<div>
-<!--			<h2 class="text-base font-semibold uppercase tracking-wide text-red-600">-->
+<!--			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">-->
 <!--				Строительные материалы-->
 <!--			</h2>-->
 			<h3
-					class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl"
+					class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-4xl"
 			>
 				Топовые акции
 			</h3>
@@ -128,11 +128,11 @@
 
 	<div class="ml-8 mt-16 text-base text-left">
 		<div>
-			<!--			<h2 class="text-base font-semibold uppercase tracking-wide text-red-600">-->
+			<!--			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">-->
 			<!--				Строительные материалы-->
 			<!--			</h2>-->
 			<h3
-					class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl"
+					class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-4xl"
 			>
 				Сезонные товары
 			</h3>
@@ -140,19 +140,19 @@
 	</div>
 
 	<div class="bg-white">
-		<div class="mx-auto max-w-2xl py-8 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
-			<div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+		<div class="mx-auto max-w-full py-4 px-4 sm:py-6 sm:px-6 lg:px-8">
+			<div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
 
 
 
 
-				<div class="group relative">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-800 group-hover:opacity-75 lg:aspect-none lg:h-80">
+				<div class="group relative drop-shadow-xl shadow-cyan-800">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-cyan-800 group-hover:opacity-75 lg:aspect-none lg:h-80">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
 						<div>
-							<h3 class="text-sm text-gray-800">
+							<h3 class="text-base text-cyan-800">
 								<a href="/shop/product/epp-xps30-200-texnopleks-118058050-l">
 									<span aria-hidden="true" class="absolute inset-0"></span>
 									Пенополистирол
@@ -160,17 +160,17 @@
 							</h3>
 							<p class="mt-1 text-sm text-gray-500">Эпп xps30-200 техноплекс 1180*580*50-l</p>
 						</div>
-						<p class="text-xl font-medium text-gray-900">₽300</p>
+						<p class="text-xl font-medium text-gray-900">300₽</p>
 					</div>
 				</div>
 
-				<div class="group relative">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+				<div class="group relative drop-shadow-xl shadow-cyan-800">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-cyan-800 group-hover:opacity-75 lg:aspect-none lg:h-80">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
 						<div>
-							<h3 class="text-sm text-gray-800">
+							<h3 class="text-base text-cyan-800">
 								<a href="/shop/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg">
 									<span aria-hidden="true" class="absolute inset-0"></span>
 									Штукатурка
@@ -178,17 +178,17 @@
 							</h3>
 							<p class="mt-1 text-sm text-gray-500">Штукатурная смесь "ек" tт 30 фасадная (25 кг)</p>
 						</div>
-						<p class="text-xl font-medium text-gray-900">₽330</p>
+						<p class="text-xl font-medium text-gray-900">330₽</p>
 					</div>
 				</div>
 
-				<div class="group relative">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+				<div class="group relative drop-shadow-xl shadow-cyan-800">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-cyan-800 group-hover:opacity-75 lg:aspect-none lg:h-80">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
 						<div>
-							<h3 class="text-sm text-gray-800">
+							<h3 class="text-base text-cyan-800">
 								<a href="/shop/product/epp-xps30-200-texnopleks-118058050-l">
 									<span aria-hidden="true" class="absolute inset-0"></span>
 									Профиля
@@ -196,17 +196,17 @@
 							</h3>
 							<p class="mt-1 text-sm text-gray-500">Профиль направляющий 27/28 толщ. 0,4 мм (3 м)</p>
 						</div>
-						<p class="text-xl font-medium text-gray-900">₽96</p>
+						<p class="text-xl font-medium text-gray-900">96₽</p>
 					</div>
 				</div>
 
-				<div class="group relative">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+				<div class="group relative drop-shadow-xl shadow-cyan-800">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-cyan-800 group-hover:opacity-75 lg:aspect-none lg:h-80">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
 						<div>
-							<h3 class="text-sm text-gray-800">
+							<h3 class="text-base text-cyan-800">
 								<a href="/shop/product/epp-xps30-200-texnopleks-118058050-l">
 									<span aria-hidden="true" class="absolute inset-0"></span>
 									Профиля
@@ -214,7 +214,7 @@
 							</h3>
 							<p class="mt-1 text-sm text-gray-500">Профиль потолочный 60/27 толщ. 0,4 мм (3 м)</p>
 						</div>
-						<p class="text-xl font-medium text-gray-900">₽120</p>
+						<p class="text-xl font-medium text-gray-900">120₽</p>
 					</div>
 				</div>
 
@@ -236,11 +236,11 @@
 
 	<div class="ml-8 mt-16 text-base text-left">
 		<div>
-			<!--			<h2 class="text-base font-semibold uppercase tracking-wide text-red-600">-->
+			<!--			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">-->
 			<!--				Строительные материалы-->
 			<!--			</h2>-->
 			<h3
-					class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl"
+					class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-4xl"
 			>
 				Отзывы о нас
 			</h3>
@@ -258,7 +258,7 @@
 					<div class="relative text-lg font-medium text-white md:flex-grow">
 						<svg
 							aria-hidden="true"
-							class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-red-500"
+							class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-cyan-500"
 							fill="currentColor"
 							viewBox="0 0 32 32"
 						>
@@ -281,7 +281,7 @@
 							<!--                </div>-->
 							<div class="ml-1">
 								<div class="text-base font-medium text-white">Вилков А.Н.</div>
-								<div class="text-base font-medium text-red-500">Генеральный директор</div>
+								<div class="text-base font-medium text-cyan-500">Генеральный директор</div>
 							</div>
 						</div>
 					</footer>
@@ -295,7 +295,7 @@
 				<blockquote class="mt-6 md:flex md:flex-grow md:flex-col">
 					<div class="relative text-lg font-medium text-white md:flex-grow">
 						<svg
-							class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-red-500"
+							class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-cyan-500"
 							fill="currentColor"
 							viewBox="0 0 32 32"
 						>
@@ -318,7 +318,7 @@
 							<!--                </div>-->
 							<div class="ml-1">
 								<div class="text-base font-medium text-white">Чернышев В.В.</div>
-								<div class="text-base font-medium text-red-500">Генеральный директор</div>
+								<div class="text-base font-medium text-cyan-500">Генеральный директор</div>
 							</div>
 						</div>
 					</footer>
@@ -328,6 +328,21 @@
 	</section>
 
 
+	<div class="bg-gray-800">
+		<div class="mx-auto py-12 px-8 sm:px-6 lg:py-16 lg:px-12 lg:flex lg:items-center">
+			<div class="lg:w-0 lg:flex-auto text-center">
+				<h2 id="newsletter-headline" class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+					<span class="block text-white">"Орбита-Строй"</span>
+					<span class="block text-white">это база строительных и отделочных материалов</span>
+					<span class="block text-gray-100">в Дзержинске</span>
+				</h2>
+				<p class="mt-3 text-lg text-gray-300">
+					Оптовая и розничная продажа строительных и отделочных материалов со складов в Дзержинске. Широкий ассортимент
+					и доступные цены.
+				</p>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -336,7 +351,7 @@
 		<!--    <div class="my-24 pb-16 bg-gradient-to-r from-white to-indigo-900 lg:pb-0 lg:z-10 lg:relative">-->
 		<div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
 			<div class="relative lg:-my-8">
-				<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
+				<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"></div>
 				<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
 					<div
 							class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl shadow-2xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full"
@@ -373,7 +388,7 @@
 						</div>
 						<footer class="mt-6">
 							<p class="text-blueGray-800 text-base font-medium">Сорокин Сергей Владимирович</p>
-							<p class="text-base font-medium text-red-800">Директор</p>
+							<p class="text-base font-medium text-cyan-800">Директор</p>
 						</footer>
 					</blockquote>
 				</div>
@@ -383,21 +398,6 @@
 
 
 
-	<div class="bg-gray-800">
-		<div class="mx-auto py-12 px-8 sm:px-6 lg:py-16 lg:px-12 lg:flex lg:items-center">
-			<div class="lg:w-0 lg:flex-auto text-center">
-				<h2 id="newsletter-headline" class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-					<span class="block text-white">"Орбита-Строй"</span>
-					<span class="block text-white">это база строительных и отделочных материалов</span>
-					<span class="block text-gray-100">в Дзержинске</span>
-				</h2>
-				<p class="mt-3 text-lg text-gray-300">
-					Оптовая и розничная продажа строительных и отделочных материалов со складов в Дзержинске. Широкий ассортимент
-					и доступные цены.
-				</p>
-			</div>
-		</div>
-	</div>
 
 
 	<div class="overflow-hidden bg-white">
@@ -405,7 +405,7 @@
 			<div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block"></div>
 			<div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
 				<div>
-					<h2 class="text-base font-semibold uppercase tracking-wide text-red-600">
+					<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">
 						Строительная база
 					</h2>
 					<h3
