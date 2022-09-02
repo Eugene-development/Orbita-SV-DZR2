@@ -56,9 +56,9 @@
 
 	<div class="ml-8 my-6 text-base text-left">
 		<div>
-<!--			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">-->
-<!--				Строительные материалы-->
-<!--			</h2>-->
+			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">
+				Наши распродажи
+			</h2>
 			<h3
 					class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-4xl"
 			>
@@ -128,9 +128,9 @@
 
 	<div class="ml-8 mt-16 text-base text-left">
 		<div>
-			<!--			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">-->
-			<!--				Строительные материалы-->
-			<!--			</h2>-->
+						<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">
+							обратите внимание
+						</h2>
 			<h3
 					class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-4xl"
 			>
@@ -236,9 +236,9 @@
 
 	<div class="ml-8 mt-16 text-base text-left">
 		<div>
-			<!--			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">-->
-			<!--				Строительные материалы-->
-			<!--			</h2>-->
+						<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">
+							это интересно
+						</h2>
 			<h3
 					class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-4xl"
 			>
