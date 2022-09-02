@@ -147,7 +147,7 @@
 
 
 				<div class="group relative drop-shadow-xl shadow-cyan-800">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-cyan-800 group-hover:opacity-75 lg:aspect-none lg:h-80">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
@@ -165,7 +165,7 @@
 				</div>
 
 				<div class="group relative drop-shadow-xl shadow-cyan-800">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-cyan-800 group-hover:opacity-75 lg:aspect-none lg:h-80">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
@@ -183,7 +183,7 @@
 				</div>
 
 				<div class="group relative drop-shadow-xl shadow-cyan-800">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-cyan-800 group-hover:opacity-75 lg:aspect-none lg:h-80">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
@@ -201,7 +201,7 @@
 				</div>
 
 				<div class="group relative drop-shadow-xl shadow-cyan-800">
-					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-cyan-800 group-hover:opacity-75 lg:aspect-none lg:h-80">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 group-hover:opacity-75 lg:aspect-none lg:h-80">
 						<img src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg" alt="" class="h-full w-full object-contain object-center lg:h-full lg:w-full">
 					</div>
 					<div class="mt-4 flex justify-between">
@@ -328,21 +328,6 @@
 	</section>
 
 
-	<div class="bg-gray-800">
-		<div class="mx-auto py-12 px-8 sm:px-6 lg:py-16 lg:px-12 lg:flex lg:items-center">
-			<div class="lg:w-0 lg:flex-auto text-center">
-				<h2 id="newsletter-headline" class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-					<span class="block text-white">"Орбита-Строй"</span>
-					<span class="block text-white">это база строительных и отделочных материалов</span>
-					<span class="block text-gray-100">в Дзержинске</span>
-				</h2>
-				<p class="mt-3 text-lg text-gray-300">
-					Оптовая и розничная продажа строительных и отделочных материалов со складов в Дзержинске. Широкий ассортимент
-					и доступные цены.
-				</p>
-			</div>
-		</div>
-	</div>
 
 
 
@@ -369,7 +354,7 @@
 					<blockquote>
 						<div>
 							<svg
-									class="text-blueGray-800 h-12 w-12 opacity-25"
+									class="text-cyan-700 h-12 w-12 "
 									fill="currentColor"
 									viewBox="0 0 32 32"
 									aria-hidden="true"
@@ -388,7 +373,7 @@
 						</div>
 						<footer class="mt-6">
 							<p class="text-blueGray-800 text-base font-medium">Сорокин Сергей Владимирович</p>
-							<p class="text-base font-medium text-cyan-800">Директор</p>
+							<p class="text-base font-medium text-cyan-900">Директор</p>
 						</footer>
 					</blockquote>
 				</div>
@@ -398,6 +383,21 @@
 
 
 
+	<div class="bg-gray-800">
+		<div class="mx-auto py-12 px-8 sm:px-6 lg:py-16 lg:px-12 lg:flex lg:items-center">
+			<div class="lg:w-0 lg:flex-auto text-center">
+				<h2 id="newsletter-headline" class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+					<span class="mb-6 block text-5xl text-cyan-400">"Орбита-Строй"</span>
+					<span class="block text-white">это база строительных и отделочных материалов</span>
+					<span class="block text-gray-100">в Дзержинске</span>
+				</h2>
+				<p class="mt-3 text-lg text-gray-300">
+					Осуществляем оптовую и розничную продажу строительных и отделочных материалов со складов в Дзержинске. Широкий ассортимент
+					и доступные цены приятно вас удивят. При необходимости есть услуга доставки стройматериалов до вашего объекта.
+				</p>
+			</div>
+		</div>
+	</div>
 
 
 	<div class="overflow-hidden bg-white">
