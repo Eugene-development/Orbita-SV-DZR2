@@ -56,7 +56,68 @@
 
 	<Swiper_v2 {content_Swiper_v2}/>
 
-<!--	<div class="relative">-->
+
+
+
+	<!--
+  This example requires Tailwind CSS v2.0+
+
+  This example requires some changes to your config:
+
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+	<div class="bg-white">
+		<div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+			<div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
+				<div>
+					<h2 class="text-base font-semibold uppercase tracking-wide text-red-600">
+						Строительные материалы
+					</h2>
+					<h3
+							class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl"
+					>
+						Сезонные товары
+					</h3>
+				</div>
+			</div>
+
+			<div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+
+
+
+
+				<div class="group relative">
+					<div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+						<img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+					</div>
+					<div class="mt-4 flex justify-between">
+						<div>
+							<h3 class="text-sm text-gray-700">
+								<a href="#">
+									<span aria-hidden="true" class="absolute inset-0"></span>
+									Basic Tee
+								</a>
+							</h3>
+							<p class="mt-1 text-sm text-gray-500">Black</p>
+						</div>
+						<p class="text-sm font-medium text-gray-900">$35</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--	<div class="relative">-->
 <!--		<div class=" sm:px-6 lg:px-8">-->
 <!--			<div class="relative shadow-xl sm:overflow-hidden sm:rounded-lg">-->
 <!--				<div class="absolute inset-0">-->
@@ -93,54 +154,6 @@
 
 
 
-	<div class="my-24 bg-gray-50 pb-16 lg:relative lg:z-10 lg:pb-0">
-		<!--    <div class="my-24 pb-16 bg-gradient-to-r from-white to-indigo-900 lg:pb-0 lg:z-10 lg:relative">-->
-		<div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
-			<div class="relative lg:-my-8">
-				<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
-				<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
-					<div
-						class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl shadow-2xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full"
-					>
-						<img
-							class="object-cover lg:h-full lg:w-full"
-							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/pages/stroimat.jpg"
-							alt=""
-						/>
-					</div>
-				</div>
-			</div>
-			<div class="mt-12 lg:col-span-2 lg:m-0 lg:pl-8">
-				<div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
-					<blockquote>
-						<div>
-							<svg
-								class="text-blueGray-800 h-12 w-12 opacity-25"
-								fill="currentColor"
-								viewBox="0 0 32 32"
-								aria-hidden="true"
-							>
-								<path
-									d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
-								/>
-							</svg>
-							<p class="text-blueGray-800 mt-6 text-2xl font-medium">
-								База стройматериалов "Орбита-Строй" предлагает в сезоне 2022 года наилучшие
-								предложения по ассортименту и ценам на строительные и отделочные материалы, а так же
-								на напольные покрытия и метизную продукцию. Находится наш строительный магазин на
-								выезде из Дзержинска недалеко от Нижнего Новгорода. Если вас интересуют
-								стройматериалы в Дзержинске или в Нижнем Новгороде, то мы ждём Вас на нашей базе!
-							</p>
-						</div>
-						<footer class="mt-6">
-							<p class="text-blueGray-800 text-base font-medium">Сорокин Сергей Владимирович</p>
-							<p class="text-base font-medium text-red-800">Директор</p>
-						</footer>
-					</blockquote>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<!--    <div class="bg-gray-900">-->
 	<!--      <div class="mx-auto py-12 px-8 sm:px-6 lg:py-16 lg:px-12 lg:flex lg:items-center">-->
@@ -367,6 +380,61 @@
 		</div>
 	</section>
 
+
+
+
+
+
+	<div class="my-24 bg-gray-50 pb-16 lg:relative lg:z-10 lg:pb-0">
+		<!--    <div class="my-24 pb-16 bg-gradient-to-r from-white to-indigo-900 lg:pb-0 lg:z-10 lg:relative">-->
+		<div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
+			<div class="relative lg:-my-8">
+				<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
+				<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
+					<div
+							class="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl shadow-2xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full"
+					>
+						<img
+								class="object-cover lg:h-full lg:w-full"
+								src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/pages/stroimat.jpg"
+								alt=""
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="mt-12 lg:col-span-2 lg:m-0 lg:pl-8">
+				<div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+					<blockquote>
+						<div>
+							<svg
+									class="text-blueGray-800 h-12 w-12 opacity-25"
+									fill="currentColor"
+									viewBox="0 0 32 32"
+									aria-hidden="true"
+							>
+								<path
+										d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
+								/>
+							</svg>
+							<p class="text-blueGray-800 mt-6 text-2xl font-medium">
+								База стройматериалов "Орбита-Строй" предлагает в сезоне 2022 года наилучшие
+								предложения по ассортименту и ценам на строительные и отделочные материалы, а так же
+								на напольные покрытия и метизную продукцию. Находится наш строительный магазин на
+								выезде из Дзержинска недалеко от Нижнего Новгорода. Если вас интересуют
+								стройматериалы в Дзержинске или в Нижнем Новгороде, то мы ждём Вас на нашей базе!
+							</p>
+						</div>
+						<footer class="mt-6">
+							<p class="text-blueGray-800 text-base font-medium">Сорокин Сергей Владимирович</p>
+							<p class="text-base font-medium text-red-800">Директор</p>
+						</footer>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
 	<!--
   This example requires Tailwind CSS v2.0+
 
@@ -386,7 +454,7 @@
 -->
 	<div class="overflow-hidden bg-white">
 		<div class="relative mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-			<div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block" />
+			<div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block"></div>
 			<div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
 				<div>
 					<h2 class="text-base font-semibold uppercase tracking-wide text-red-600">
