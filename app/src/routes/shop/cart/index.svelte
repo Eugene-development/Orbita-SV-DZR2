@@ -1,3 +1,7 @@
+
+
+
+
 <script>
 	import { onMount } from 'svelte';
 	import { browser } from '$app/env';
