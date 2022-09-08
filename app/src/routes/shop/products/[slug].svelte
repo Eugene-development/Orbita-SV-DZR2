@@ -1,6 +1,3 @@
-
-
-
 <script context="module">
 	import { pageTitle } from '$stores/store.js';
 

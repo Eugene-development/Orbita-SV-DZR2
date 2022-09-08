@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { clickOutside } from '$lib/functions/click_outside';
 
-	import MobileMenu from "./mobile/index.svelte";
+	import MobileMenu from './mobile/index.svelte';
 	// import {useHead} from "$lib/use/content/header";
 
 	import { useHead } from '../../content/index.js';
@@ -99,54 +99,71 @@
 
 	const changeButtonVisibleCatalog = () => buttonVisibleCatalog.update(invertToTrue);
 	const changeVisibleInfoPanel = () => infoPanel.update(invertToFalse);
-
 </script>
 
 {#if $infoPanel}
-<div class="relative bg-gray-800">
-	<div class="max-w-7xl mx-auto py-2 px-3 sm:px-6 lg:px-8">
-		<div class="pr-16 sm:text-center sm:px-16">
-			<p class="font-medium text-white antialiased">
-				<span class="md:hidden">Специальные цены на утеплитель от 725р.</span>
-				<span class="hidden md:inline"> Спецпредложение. Только в эти дни! Специальные цены на утеплитель от 725р.</span>
-				<span class="block sm:ml-2 sm:inline-block">
-          <a href="/information/action" class="text-white font-bold underline"> Подробнее <span aria-hidden="true">&rarr;</span></a>
-        </span>
-			</p>
-		</div>
-		<div class="absolute inset-y-0 right-0 pt-1 pr-1 flex items-start sm:pt-1 sm:pr-2 sm:items-start">
-			<button type="button" on:click={changeVisibleInfoPanel} class="flex p-2 rounded-md hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-white">
-				<span class="sr-only">Dismiss</span>
-				<!-- Heroicon name: outline/x -->
-				<svg class="h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-				</svg>
-			</button>
+	<div class="relative bg-gray-800">
+		<div class="mx-auto max-w-7xl py-2 px-3 sm:px-6 lg:px-8">
+			<div class="pr-16 sm:px-16 sm:text-center">
+				<p class="font-medium text-white antialiased">
+					<span class="md:hidden">Специальные цены на утеплитель от 725р.</span>
+					<span class="hidden md:inline">
+						Спецпредложение. Только в эти дни!!! Специальные цены на утеплитель от 725р.</span
+					>
+					<span class="block sm:ml-2 sm:inline-block">
+						<a href="/information/action" class="font-bold text-white underline">
+							Подробнее <span aria-hidden="true">&rarr;</span></a
+						>
+					</span>
+				</p>
+			</div>
+			<div
+				class="absolute inset-y-0 right-0 flex items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2"
+			>
+				<button
+					type="button"
+					on:click={changeVisibleInfoPanel}
+					class="flex rounded-md p-2 hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-white"
+				>
+					<span class="sr-only">Dismiss</span>
+					<!-- Heroicon name: outline/x -->
+					<svg
+						class="h-4 w-4 text-white"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke="currentColor"
+						aria-hidden="true"
+					>
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</button>
+			</div>
 		</div>
 	</div>
-</div>
-<!--<div class="relative bg-gray-800">-->
-<!--	<div class="max-w-7xl mx-auto py-2 px-3 sm:px-6 lg:px-8">-->
-<!--		<div class="pr-16 sm:text-center sm:px-16">-->
-<!--			<p class="font-medium text-white antialiased">-->
-<!--				<span class="md:hidden"> Снижены цены на древесину! </span>-->
-<!--				<span class="hidden md:inline"> Хорошие новости! Снижены цены на древесину. </span>-->
-<!--				<span class="block sm:ml-2 sm:inline-block">-->
-<!--          <a href="/shop/category/pilomaterial" class="text-white font-bold underline"> Подробнее <span aria-hidden="true">&rarr;</span></a>-->
-<!--        </span>-->
-<!--			</p>-->
-<!--		</div>-->
-<!--		<div class="absolute inset-y-0 right-0 pt-1 pr-1 flex items-start sm:pt-1 sm:pr-2 sm:items-start">-->
-<!--			<button type="button" on:click={changeVisibleInfoPanel} class="flex p-2 rounded-md hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-white">-->
-<!--				<span class="sr-only">Dismiss</span>-->
-<!--				&lt;!&ndash; Heroicon name: outline/x &ndash;&gt;-->
-<!--				<svg class="h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">-->
-<!--					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />-->
-<!--				</svg>-->
-<!--			</button>-->
-<!--		</div>-->
-<!--	</div>-->
-<!--</div>-->
+	<!--<div class="relative bg-gray-800">-->
+	<!--	<div class="max-w-7xl mx-auto py-2 px-3 sm:px-6 lg:px-8">-->
+	<!--		<div class="pr-16 sm:text-center sm:px-16">-->
+	<!--			<p class="font-medium text-white antialiased">-->
+	<!--				<span class="md:hidden"> Снижены цены на древесину! </span>-->
+	<!--				<span class="hidden md:inline"> Хорошие новости! Снижены цены на древесину. </span>-->
+	<!--				<span class="block sm:ml-2 sm:inline-block">-->
+	<!--          <a href="/shop/category/pilomaterial" class="text-white font-bold underline"> Подробнее <span aria-hidden="true">&rarr;</span></a>-->
+	<!--        </span>-->
+	<!--			</p>-->
+	<!--		</div>-->
+	<!--		<div class="absolute inset-y-0 right-0 pt-1 pr-1 flex items-start sm:pt-1 sm:pr-2 sm:items-start">-->
+	<!--			<button type="button" on:click={changeVisibleInfoPanel} class="flex p-2 rounded-md hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-white">-->
+	<!--				<span class="sr-only">Dismiss</span>-->
+	<!--				&lt;!&ndash; Heroicon name: outline/x &ndash;&gt;-->
+	<!--				<svg class="h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">-->
+	<!--					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />-->
+	<!--				</svg>-->
+	<!--			</button>-->
+	<!--		</div>-->
+	<!--	</div>-->
+	<!--</div>-->
 {/if}
 
 <header>
@@ -192,7 +209,7 @@
   ```
 -->
 	<nav class="bg-cyan-700">
-		<div class="mx-auto hidden max-w-full px-2 sm:px-8 lg:px-10 lg:block">
+		<div class="mx-auto hidden max-w-full px-2 sm:px-8 lg:block lg:px-10">
 			<div class="relative flex h-12 items-center justify-between">
 				<div class="flex items-center px-1 lg:px-0">
 					<div class=" ">
@@ -745,7 +762,9 @@
 							{/if}
 						</div>
 						<a class="text-base text-slate-900 hover:text-red-800" href="/blog"> Блог </a>
-						<a class="text-base text-slate-900 hover:text-red-800" href="/information/action"> Акции </a>
+						<a class="text-base text-slate-900 hover:text-red-800" href="/information/action">
+							Акции
+						</a>
 						<a class="text-base text-slate-900 hover:text-red-800" href="/contact"> Контакты </a>
 						<a
 							class="text-base text-slate-900 hover:text-red-800"
@@ -784,7 +803,7 @@
 			</div>
 		</div>
 
-		<MobileMenu/>
+		<MobileMenu />
 	</div>
 
 	<div class="bg-gray-50 pt-6 sm:pt-8 ">
@@ -794,7 +813,7 @@
 		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 			<div class="mx-auto max-w-4xl text-center">
 				<h2
-					class="text-3xl font-extrabold lowercase text-slate-900 first-letter:uppercase sm:text-4xl lg:text-5xl antialiased"
+					class="text-3xl font-extrabold lowercase text-slate-900 antialiased first-letter:uppercase sm:text-4xl lg:text-5xl"
 				>
 					{$pageTitle}
 				</h2>
@@ -880,4 +899,3 @@
 
 	<Search />
 </header>
-
