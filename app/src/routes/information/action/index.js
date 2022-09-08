@@ -1,46 +1,60 @@
 const actions = [
+    // {
+    //     action: 'Штукатурная смесь "кнауф ротбанд" белая (30 кг)',
+    //     price: '440 рублей',
+    //     description: 'Предложение ограничено',
+    //     link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
+    // },
+    {
+        action: 'Утеплитель технониколь роклайт 1200*600*50',
+        price: '725 рубля',
+        description: 'Только в эти выходные',
+        link: '/shop/product/uteplitel-texnonikol-roklait-120060050'
+    },
+    {
+        action: 'Утеплитель технониколь роклайт 1200*600*100',
+        price: '1190 рубля',
+        description: 'Только в эти выходные',
+        link: '/shop/product/uteplitel-texnonikol-roklait-1200600100'
+    },
+
+    {
+        action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
+        price: '444 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
+    },
     {
         action: 'Штукатурная смесь "кнауф ротбанд" белая (30 кг)',
         price: '440 рублей',
         description: 'Предложение ограничено',
         link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
     },
-    {
-        action: 'Утеплитель технониколь роклайт 1200*600*50',
-        price: '704 рубля',
-        description: 'Предложение ограничено',
-        link: '/shop/product/uteplitel-texnonikol-roklait-120060050'
-    },
-    {
-        action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
-        price: '420 рублей',
-        description: 'Предложение ограничено',
-        link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
-    },
-    {
-        action: 'Эпп xps30-200 техноплекс 1180*580*50-l',
-        price: '256 рублей',
-        description: 'Предложение ограничено',
-        link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
-    },
-    {
-        action: 'Пена пистолетная kudo proff 65+ всесезон',
-        price: '420 рублей',
-        description: 'Предложение ограничено',
-        link: '/shop/product/pena-pistoletnaya-kudo-proff-65-vsesezon'
-    },
+
     // {
-    //     action: 'Утеплитель изобокс 50 мм',
-    //     price: '905 рублей',
+    //     action: 'Эпп xps30-200 техноплекс 1180*580*50-l',
+    //     price: '256 рублей',
     //     description: 'Предложение ограничено',
-    //     link: '/shop/product/uteplitel-izoboks-50-mm'
+    //     link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
     // },
     // {
-    //     action: 'Утеплитель изобокс 100 мм',
-    //     price: '945 рублей',
+    //     action: 'Пена пистолетная kudo proff 65+ всесезон',
+    //     price: '420 рублей',
     //     description: 'Предложение ограничено',
-    //     link: '/shop/product/uteplitel-izoboks-100mm'
+    //     link: '/shop/product/pena-pistoletnaya-kudo-proff-65-vsesezon'
     // },
+    {
+        action: 'Утеплитель изобокс 50 мм',
+        price: '825 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/uteplitel-izoboks-50-mm'
+    },
+    {
+        action: 'Утеплитель изобокс 100 мм',
+        price: '890 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/uteplitel-izoboks-100mm'
+    },
 
     // {
     //     action: 'Утеплитель Техноблок 1200х600х100',
@@ -66,12 +80,19 @@ const actions = [
     //     description: 'Предложение ограничено',
     //     link: '/shop/products/penoplast'
     // },
-    // {
-    //     action: 'Плита ОСБ 9мм',
-    //     price: '510 рублей',
-    //     description: 'Только в эти выходные',
-    //     link: '/shop/product/plita-osb-3-250012509mm-kronospan-gost-vlagostoikaya'
-    // },
+    {
+        action: 'Плита ОСБ 9мм',
+        price: '520 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/plita-osb-3-250012509mm-kronospan-gost-vlagostoikaya'
+    },
+    {
+        action: 'Клей для плитки "Вебер ветонит" изи фикс (25 кг)',
+        price: '330 рублей',
+        description: 'Предложение ограничено',
+        link: '/shop/product/klei-dlya-plitki-veber-vetonit-izi-fiks-25-kg'
+    },
+
     // {
     //     action: 'Софит-izol в (пароизоляция) 1,6м (35 м2)',
     //     price: '635 рублей',
