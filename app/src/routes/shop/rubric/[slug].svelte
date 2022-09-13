@@ -51,6 +51,11 @@
 	export let nameHead;
 	export let rubric;
 	export let text;
+	// console.log(
+	// 	rubric.map((name2) => {
+	// 		name2;
+	// 	})
+	// );
 </script>
 
 <svelte:head>

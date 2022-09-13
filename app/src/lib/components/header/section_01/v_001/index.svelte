@@ -112,11 +112,11 @@
 					> -->
 					<span class="md:hidden">На склад в г. Дзержинск требуются грузчики.</span>
 					<span class="hidden md:inline"> На склад в г. Дзержинск требуются грузчики.</span>
-					<span class="block sm:ml-2 sm:inline-block">
+					<!-- <span class="block sm:ml-2 sm:inline-block">
 						<a href="/information/action" class="font-bold text-white underline">
 							Подробнее <span aria-hidden="true">&rarr;</span></a
 						>
-					</span>
+					</span> -->
 				</p>
 			</div>
 			<div
