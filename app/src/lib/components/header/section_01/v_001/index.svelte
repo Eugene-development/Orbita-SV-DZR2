@@ -106,10 +106,12 @@
 		<div class="mx-auto max-w-7xl py-2 px-3 sm:px-6 lg:px-8">
 			<div class="pr-16 sm:px-16 sm:text-center">
 				<p class="font-medium text-white antialiased">
-					<span class="md:hidden">Специальные цены на утеплитель от 725р.</span>
+					<!-- <span class="md:hidden">Специальные цены на утеплитель от 725р.</span>
 					<span class="hidden md:inline">
 						Спецпредложение. Только в эти дни!!! Специальные цены на утеплитель от 725р.</span
-					>
+					> -->
+					<span class="md:hidden">На склад в г. Дзержинск требуются грузчики.</span>
+					<span class="hidden md:inline"> На склад в г. Дзержинск требуются грузчики.</span>
 					<span class="block sm:ml-2 sm:inline-block">
 						<a href="/information/action" class="font-bold text-white underline">
 							Подробнее <span aria-hidden="true">&rarr;</span></a
