@@ -808,28 +808,29 @@
 		<MobileMenu />
 	</div>
 
-	<div class="bg-gray-50 pt-6 sm:pt-8 ">
+	<div class=" ">
 		<!--    <div class="bg-gradient-to-r from-gray-200 via-slate-50 to-gray-200 pt-6 sm:pt-8 ">-->
 		<!--    <div class="bg-hero-pattern pt-6 sm:pt-8 ">-->
 
-		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-			<div class="mx-auto max-w-4xl text-center">
+		<div class="max-w-9xl mx-auto  px-4 sm:px-6 lg:px-8">
+			<div class="mx-auto  text-center">
 				<h2
-					class="text-3xl font-extrabold lowercase text-slate-900 antialiased first-letter:uppercase sm:text-4xl lg:text-5xl"
+					class="py-6 text-4xl font-extrabold lowercase text-cyan-900 antialiased first-letter:uppercase sm:text-5xl lg:text-6xl"
 				>
 					{$pageTitle}
 				</h2>
-				<p class="mt-3 text-xl text-gray-900 sm:mt-4">
+				<img
+					class="inset-0 mt-2 h-64 w-full  object-cover"
+					src="https://s.gobalakovo.ru/section/catalogpagesintext/upload/images/catalog/intext/000/050/837/007_5cf3e36d0ecce.jpg"
+					alt="база строительных материалов"
+				/>
+
+				<p class="mt-3 text-xl text-cyan-900 sm:mt-4">
 					При заказе через каталог стройматериалов на сайте для вас скидка 5%
 				</p>
 			</div>
 			<!--            <p class="mt-4 text-2xl sm:text-3xl text-center font-extrabold text-slate-900">Каталог стройматериалов:</p>-->
 		</div>
-		<img
-			class="inset-0 mt-4 h-64 w-full object-cover"
-			src="https://s.gobalakovo.ru/section/catalogpagesintext/upload/images/catalog/intext/000/050/837/007_5cf3e36d0ecce.jpg"
-			alt="база строительных материалов"
-		/>
 		<!-- <img
 			class="inset-0 mt-4 h-48 w-full object-cover"
 			src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614808114_100-p-fon-dlya-stroitelnogo-saita-119.jpg"
@@ -837,9 +838,9 @@
 		/> -->
 
 		{#if $buttonVisibleCatalog}
-			<div class="mt-8 bg-white pb-4 sm:pb-8">
+			<div class="mt-4 bg-white pb-4 sm:pb-8">
 				<div class="relative">
-					<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-gray-50" />
+					<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
 					<!--                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div>-->
 					<div class="relative mx-auto max-w-full px-4 sm:px-6 lg:px-8">
 						<div class="mx-auto w-full">
@@ -886,9 +887,9 @@
 				</div>
 			</div>
 		{:else}
-			<div class="mt-8 bg-white pb-4 sm:pb-8">
+			<div class="mt-4 bg-white pb-4 sm:pb-8">
 				<div class="relative">
-					<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-gray-50" />
+					<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
 					<!--                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div>-->
 					<div class="relative mx-auto max-w-full px-4 sm:px-6 lg:px-8 ">
 						<div class="mx-auto w-full ">

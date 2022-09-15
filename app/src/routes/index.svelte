@@ -2,7 +2,7 @@
 <script>
 	import { pageTitle } from '$stores/store.js';
 
-	pageTitle.update(() => 'Строительная база');
+	pageTitle.update(() => 'База строительных материалов');
 
 	import { Swiper_v2 } from 'symax/ui/broker';
 	import { content } from './index.js';
@@ -28,7 +28,17 @@
 </svelte:head>
 
 <div class="">
-	<div class="m-8  bg-gray-50">
+	<div class="my-12 ml-8 text-center text-base">
+		<div>
+			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">
+				Важная информация
+			</h2>
+			<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-5xl">
+				Наши вакансии
+			</h3>
+		</div>
+	</div>
+	<div class="mx-8 my-12 bg-gray-50">
 		<main class="lg:relative">
 			<div class="mx-auto w-full max-w-7xl py-16 text-center lg:py-32 lg:text-left">
 				<div class="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
@@ -83,10 +93,10 @@
 	<!--      </div>-->
 	<!--    </div>-->
 
-	<div class="my-6 ml-8 text-left text-base">
+	<div class="my-16 ml-8 text-center text-base">
 		<div>
 			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">Наши распродажи</h2>
-			<h3 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-4xl">
+			<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-5xl">
 				Топовые акции
 			</h3>
 		</div>
@@ -145,12 +155,12 @@
 	<!--		</div>-->
 	<!--	</div>-->
 
-	<div class="ml-8 mt-16 text-left text-base">
+	<div class="ml-8 mt-16 text-center text-base">
 		<div>
 			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">
 				обратите внимание
 			</h2>
-			<h3 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-4xl">
+			<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-5xl">
 				Сезонные товары
 			</h3>
 		</div>
@@ -262,10 +272,10 @@
 		</div>
 	</div>
 
-	<div class="ml-8 mt-16 text-left text-base">
+	<div class="ml-8 mt-16 text-center text-base">
 		<div>
 			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">это интересно</h2>
-			<h3 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-4xl">
+			<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-5xl">
 				Отзывы о нас
 			</h3>
 		</div>

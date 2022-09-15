@@ -64,21 +64,20 @@
 </svelte:head>
 
 <div class="bg-white">
-	<!--        <div class="pt-4 sm:pt-8 lg:pt-12">-->
-	<!--            <div class="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">-->
-	<!--                <div class="max-w-3xl mx-auto space-y-2 lg:max-w-none">-->
-	<!--                    &lt;!&ndash;            <h2 class="text-lg leading-6 font-semibold text-slate-900 uppercase tracking-wider">&ndash;&gt;-->
-	<!--                    &lt;!&ndash;              Раздел&ndash;&gt;-->
-	<!--                    &lt;!&ndash;            </h2>&ndash;&gt;-->
-	<!--                    <h1 class="text-3xl font-extrabold text-slate-900 sm:text-4xl lg:text-5xl">-->
-	<!--                        {nameHead}-->
-	<!--                    </h1>-->
-	<!--                    <p class="text-xl text-slate-700">-->
-	<!--                        Выберите интересующую вас рубрику в этом разделе.-->
-	<!--                    </p>-->
-	<!--                </div>-->
-	<!--            </div>-->
-	<!--        </div>-->
+	<div class="pt-4 sm:pt-4 lg:pt-4">
+		<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+			<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
+				<h2 class="text-lg font-semibold uppercase leading-6 tracking-wider text-slate-900">
+					Раздел
+				</h2>
+
+				<h1 class="text-3xl font-extrabold text-cyan-800 sm:text-4xl lg:text-5xl">
+					{nameHead}
+				</h1>
+				<p class="text-xl text-slate-700">Выберите интересующую вас рубрику в этом разделе.</p>
+			</div>
+		</div>
+	</div>
 	<div class="bo mt-8 pb-12 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
 		<div class="relative">
 			<div class="absolute inset-0 h-3/4" />
@@ -111,7 +110,6 @@
 								<div class="mb-2 rounded-md shadow-lg shadow-cyan-500/50">
 									<a
 										sveltekit:prefetch
-										sveltekit:noscroll
 										href="/shop/category/{slug}"
 										class="block w-full rounded-md border border-cyan-900 bg-gradient-to-r from-cyan-500 via-cyan-800 to-cyan-500 py-2 text-center text-sm font-semibold text-white duration-300 ease-in hover:bg-cyan-900 hover:from-cyan-800 hover:via-cyan-500 hover:to-cyan-800"
 									>

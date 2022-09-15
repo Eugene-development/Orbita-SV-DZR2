@@ -124,7 +124,7 @@
 				<li
 					class="col-span-1 flex flex-col divide-y divide-slate-200 rounded-lg border-2 border-slate-100 bg-white text-center shadow-lg shadow-slate-200/50 ring-1 ring-slate-100 ring-offset-1"
 				>
-					<a sveltekit:prefetch sveltekit:noscroll href="/shop/product/{slug}">
+					<a sveltekit:prefetch href="/shop/product/{slug}">
 						<div class="flex flex-1 flex-col p-8">
 							{#if image[0]}
 								<img
