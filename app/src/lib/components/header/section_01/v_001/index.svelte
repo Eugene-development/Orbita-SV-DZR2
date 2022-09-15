@@ -110,8 +110,8 @@
 					<span class="hidden md:inline">
 						Спецпредложение. Только в эти дни!!! Специальные цены на утеплитель от 725р.</span
 					> -->
-					<span class="md:hidden">На склад в г. Дзержинск требуются грузчики.</span>
-					<span class="hidden md:inline"> На склад в г. Дзержинск требуются грузчики.</span>
+					<span class="md:hidden">На склад в г. Дзержинск срочно требуются грузчики.</span>
+					<span class="hidden md:inline"> На склад в г. Дзержинск срочно требуются грузчики.</span>
 					<!-- <span class="block sm:ml-2 sm:inline-block">
 						<a href="/information/action" class="font-bold text-white underline">
 							Подробнее <span aria-hidden="true">&rarr;</span></a
