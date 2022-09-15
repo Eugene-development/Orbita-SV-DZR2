@@ -57,6 +57,16 @@
 					<p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
 						Рабочий день с 8 до 17-30
 					</p>
+					<p
+						class="mx-auto mt-3 max-w-md text-lg font-semibold text-gray-500 sm:text-2xl md:mt-5 md:max-w-3xl"
+					>
+						8 (8313) 31-02-28
+					</p>
+					<p
+						class="mx-auto mt-3 max-w-md text-lg font-semibold text-gray-500 sm:text-2xl md:mt-5 md:max-w-3xl"
+					>
+						8 (952) 765-79-45
+					</p>
 				</div>
 			</div>
 			<div
