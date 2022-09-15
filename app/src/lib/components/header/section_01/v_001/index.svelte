@@ -210,7 +210,7 @@
   }
   ```
 -->
-	<nav class="bg-cyan-700">
+	<nav class="bg-cyan-800">
 		<div class="mx-auto hidden max-w-full px-2 sm:px-8 lg:block lg:px-10">
 			<div class="relative flex h-12 items-center justify-between">
 				<div class="flex items-center px-1 lg:px-0">
@@ -468,7 +468,7 @@
 
 			<div class="space-y-1 px-1 pt-2 pb-3 sm:px-4 md:px-8 ">
 				<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-				<div class="mx-auto flex items-center justify-between">
+				<div class="mx-auto flex items-center justify-between px-4">
 					<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 					<!--                    <div class="flex">-->
 					<!--                        <svg class="hidden sm:block h-4 sm:h-5 md:h-6 w-4 sm:w-5 md:w-6 text-red-500" fill="none"-->
@@ -484,7 +484,7 @@
 
 					<div class="flex">
 						<svg
-							class="h-5 w-4 text-red-500 sm:h-5 sm:w-5 md:h-6 md:w-6"
+							class="h-6 w-6 text-red-500"
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -498,14 +498,14 @@
 							/>
 						</svg>
 						<a
-							class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
+							class="rounded-md pl-1 text-base font-medium text-gray-200 sm:text-base md:text-lg"
 							href="tel:+79023033654">8 902-303-36-54</a
 						>
 					</div>
 
 					<div class="flex">
 						<svg
-							class="h-5 w-4 text-red-500 sm:h-5 sm:w-5 md:h-6 md:w-6"
+							class="h-6 w-6 text-red-500 "
 							fill="none"
 							stroke="currentColor"
 							stroke-width="2"
@@ -519,7 +519,7 @@
 							/>
 						</svg>
 						<a
-							class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
+							class="rounded-md pl-1 text-base font-medium text-gray-200 sm:text-base md:text-lg"
 							href="tel:+79306888862">8 930-688-88-62</a
 						>
 					</div>
@@ -529,7 +529,7 @@
 	</nav>
 
 	<!-- This example requires Tailwind CSS v2.0+ -->
-	<div class="relative bg-white">
+	<div class="relative -mx-1 bg-white">
 		<div aria-hidden="true" class="pointer-events-none absolute inset-0 z-30 shadow" />
 		<div class="relative z-20">
 			<div
@@ -601,13 +601,13 @@
 				</div>
 				<div class="hidden sm:items-center sm:justify-between lg:flex lg:flex-1">
 					<nav class="flex space-x-8 font-semibold">
-						<a class="text-base text-slate-900 hover:text-red-800 " href="/">Главная</a>
-						<a class="text-base text-slate-900 hover:text-red-800" href="/about">Компания</a>
+						<a class="text-base text-cyan-900 hover:text-red-800 " href="/">Главная</a>
+						<a class="text-base text-cyan-900 hover:text-red-800" href="/about">Компания</a>
 						<div on:outclick={closeVisibleInformationMenu} use:clickOutside>
 							<!-- Item active: "text-slate-900", Item inactive: "text-slate-500" -->
 							<button
 								aria-expanded="false"
-								class="group inline-flex items-center rounded-md bg-white text-base text-slate-900 hover:text-red-800 focus:text-red-700 focus:outline-none"
+								class="group inline-flex items-center rounded-md bg-white text-base text-cyan-900 hover:text-red-800 focus:text-red-700 focus:outline-none"
 								on:click={changeVisibleInformationMenu}
 								type="button"
 							>
@@ -763,13 +763,13 @@
 								</div>
 							{/if}
 						</div>
-						<a class="text-base text-slate-900 hover:text-red-800" href="/blog"> Блог </a>
-						<a class="text-base text-slate-900 hover:text-red-800" href="/information/action">
+						<a class="text-base text-cyan-900 hover:text-red-800" href="/blog"> Блог </a>
+						<a class="text-base text-cyan-900 hover:text-red-800" href="/information/action">
 							Акции
 						</a>
-						<a class="text-base text-slate-900 hover:text-red-800" href="/contact"> Контакты </a>
+						<a class="text-base text-cyan-900 hover:text-red-800" href="/contact"> Контакты </a>
 						<a
-							class="text-base text-slate-900 hover:text-red-800"
+							class="text-base text-cyan-900 hover:text-red-800"
 							href="https://vk.com/orbita_stroy"
 							target="_blank"
 						>
@@ -778,7 +778,7 @@
 					</nav>
 					<div class="flex items-center md:ml-12">
 						<a
-							class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-gray-800 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-700/50 hover:bg-gray-800"
+							class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-cyan-900 px-4 py-1 text-base font-medium text-white shadow-lg shadow-gray-900/50 hover:bg-gray-800"
 							href="/shop/cart"
 							sveltekit:noscroll
 						>
@@ -850,7 +850,7 @@
 										sveltekit:noscroll
 										href="/shop/rubric/{slug}"
 										on:click={() => buttonVisibleCatalog.update(invertToFalse)}
-										class="flex flex-col border border-gray-200 bg-gradient-to-tr from-gray-500 via-gray-900 to-gray-700 p-4 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
+										class="flex flex-col border border-gray-200 bg-gradient-to-tr from-cyan-500 via-cyan-900 to-cyan-700 p-4 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
 									>
 										<span
 											class="order-2 text-sm font-medium leading-6 tracking-wider text-slate-50 antialiased"
