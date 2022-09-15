@@ -825,6 +825,16 @@
 			</div>
 			<!--            <p class="mt-4 text-2xl sm:text-3xl text-center font-extrabold text-slate-900">Каталог стройматериалов:</p>-->
 		</div>
+		<img
+			class="inset-0 mt-4 h-64 w-full object-cover"
+			src="https://s.gobalakovo.ru/section/catalogpagesintext/upload/images/catalog/intext/000/050/837/007_5cf3e36d0ecce.jpg"
+			alt="база строительных материалов"
+		/>
+		<!-- <img
+			class="inset-0 mt-4 h-48 w-full object-cover"
+			src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614808114_100-p-fon-dlya-stroitelnogo-saita-119.jpg"
+			alt="база строительных материалов"
+		/> -->
 
 		{#if $buttonVisibleCatalog}
 			<div class="mt-8 bg-white pb-4 sm:pb-8">
@@ -888,7 +898,7 @@
 							>
 								<p class="p-3">
 									<span class="text-2xl font-medium tracking-wider text-white">
-										Каталог стройматериалов
+										Наш каталог стройматериалов
 									</span>
 								</p>
 							</div>
