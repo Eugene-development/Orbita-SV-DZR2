@@ -27,7 +27,6 @@ const content_Swiper_v2 = [
 		link_Marketing_v2: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
 	}
 ];
-w;
 
 export const content = {
 	content_Swiper_v2

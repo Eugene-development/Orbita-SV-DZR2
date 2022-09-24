@@ -74,7 +74,7 @@
 			>
 				<img
 					class="absolute inset-0 h-full w-full object-cover"
-					src="https://storage.yandexcloud.net/brand-logo/orbita/job/gruzchik.jpeg"
+					src="https://sc01.alicdn.com/kf/H32d548424fea4ed3af05de444ffa34362/977903705/H32d548424fea4ed3af05de444ffa34362.jpg"
 					alt="работа у нас"
 				/>
 			</div>
