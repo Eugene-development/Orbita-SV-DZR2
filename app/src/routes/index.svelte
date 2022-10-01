@@ -175,7 +175,6 @@
 			</h3>
 		</div>
 	</div>
-
 	<div class="bg-white">
 		<div class="mx-auto max-w-full py-4 px-4 sm:py-6 sm:px-6 lg:px-8">
 			<div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
