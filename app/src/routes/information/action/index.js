@@ -1,52 +1,88 @@
 const actions = [
+	{
+		action: 'Шпаклевка гипсовая "ек" к 300 (20 кг)',
+		price: '487 рублей',
+		description: 'Предложение ограничено',
+		link: '/shop/product/spaklevka-gipsovaya-ek-k-300-20-kg'
+	},
+	{
+		action: 'Грунтовка универсальная "ек" g200 (10 л)',
+		price: '604 рубля',
+		description: 'Предложение ограничено',
+		link: '/shop/product/gruntovka-universalnaya-ek-g200-10-l'
+	},
+	{
+		action: 'Грунтовка универсальная концентрированная "ек" g100 (10 л)',
+		price: '1020 рублей',
+		description: 'Предложение ограничено',
+		link: '/shop/product/gruntovka-universalnaya-koncentrirovannaya-ek-g100-10-l'
+	},
+	{
+		action: 'Cмесь для пола "юнис" горизонт универсальный (20 кг)',
+		price: '342 рубля',
+		description: 'Предложение ограничено',
+		link: '/shop/product/cmes-dlya-pola-yunis-gorizont-universalnyi-20-kg'
+	},
+	{
+		action: 'Наливной пол "ек" level 2.0 быстротвердеющий влагостойкий (20 кг)',
+		price: '360 рублей',
+		description: 'Предложение ограничено',
+		link: '/shop/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg'
+	},
 	// {
 	//     action: 'Штукатурная смесь "кнауф ротбанд" белая (30 кг)',
 	//     price: '440 рублей',
 	//     description: 'Предложение ограничено',
 	//     link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
 	// },
-	{
-		action: 'Утеплитель технониколь роклайт 1200*600*50',
-		price: '752 рубля',
-		description: 'Только в эти выходные',
-		link: '/shop/product/uteplitel-texnonikol-roklait-120060050'
-	},
-	{
-		action: 'Утеплитель технониколь роклайт 1200*600*100',
-		price: '1190 рубля',
-		description: 'Только в эти выходные',
-		link: '/shop/product/uteplitel-texnonikol-roklait-1200600100'
-	},
 	// {
-	//     action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
-	//     price: '444 рублей',
-	//     description: 'Предложение ограничено',
-	//     link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
+	// 	action: 'Утеплитель технониколь роклайт 1200*600*50',
+	// 	price: '752 рубля',
+	// 	description: 'Только в эти выходные',
+	// 	link: '/shop/product/uteplitel-texnonikol-roklait-120060050'
+	// },
+	// {
+	// 	action: 'Утеплитель технониколь роклайт 1200*600*100',
+	// 	price: '1190 рубля',
+	// 	description: 'Только в эти выходные',
+	// 	link: '/shop/product/uteplitel-texnonikol-roklait-1200600100'
 	// },
 	{
-		action: 'Штукатурная смесь "кнауф ротбанд" белая (30 кг)',
-		price: '440 рублей',
+		action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
+		price: '451 рубль',
 		description: 'Предложение ограничено',
-		link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
+		link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
 	},
+	// {
+	// 	action: 'Штукатурная смесь "кнауф ротбанд" белая (30 кг)',
+	// 	price: '440 рублей',
+	// 	description: 'Предложение ограничено',
+	// 	link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
+	// },
+	// {
+	// 	action: 'Эпп xps30-200 техноплекс 1180*580*50-l',
+	// 	price: '265 рублей',
+	// 	description: 'Предложение ограничено',
+	// 	link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
+	// },
 	{
-		action: 'Эпп xps30-200 техноплекс 1180*580*50-l',
-		price: '265 рублей',
+		action: 'Эпп xps30-200 техноплекс 1180*580*30-l',
+		price: '179 рублей',
 		description: 'Предложение ограничено',
-		link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
-	},
-	{
-		action: 'Эпп xps30-200 техноплекс 1180*580*20-l',
-		price: '130 рублей',
-		description: 'Предложение ограничено',
-		link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
-	},
-	{
-		action: 'Гвлв "кнауф" 10 мм (1200*2500)',
-		price: '672 рублей',
-		description: 'Предложение ограничено',
-		link: '/shop/product/gvlv-knauf-10-mm-12002500'
-	},
+		link: '/shop/product/epp-xps30-200-texnopleks-118058030-l'
+	}
+	// {
+	// 	action: 'Эпп xps30-200 техноплекс 1180*580*20-l',
+	// 	price: '130 рублей',
+	// 	description: 'Предложение ограничено',
+	// 	link: '/shop/product/epp-xps30-200-texnopleks-118058050-l'
+	// },
+	// {
+	// 	action: 'Гвлв "кнауф" 10 мм (1200*2500)',
+	// 	price: '672 рублей',
+	// 	description: 'Предложение ограничено',
+	// 	link: '/shop/product/gvlv-knauf-10-mm-12002500'
+	// },
 	// {
 	//     action: 'Пена пистолетная kudo proff 65+ всесезон',
 	//     price: '420 рублей',
@@ -113,12 +149,12 @@ const actions = [
 	//     description: 'Только в эти выходные',
 	//     link: '/shop/product/sofit-izol-d-gidro-paroizolyaciya-15m-70-m2'
 	// },
-	{
-		action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
-		price: '444 рублей',
-		description: 'Предложение ограничено',
-		link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
-	}
+	// {
+	// 	action: 'Штукатурная смесь "ек" tg 40 (30 кг)',
+	// 	price: '444 рублей',
+	// 	description: 'Предложение ограничено',
+	// 	link: '/shop/product/stukaturnaya-smes-ek-tg-40-30-kg'
+	// }
 	// {
 	//     action: 'Пена пистолетная "kudo home 65" всесезонная',
 	//     price: '410 рублей',
