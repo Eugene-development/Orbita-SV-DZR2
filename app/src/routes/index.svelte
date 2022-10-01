@@ -183,22 +183,22 @@
 						class="min-h-80 aspect-w-1 aspect-h-1 lg:aspect-none w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 shadow-lg shadow-cyan-900 group-hover:opacity-75 lg:h-80"
 					>
 						<img
-							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png"
-							alt=""
+							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp"
+							alt="клей для плитки"
 							class="h-full w-full object-contain object-center lg:h-full lg:w-full"
 						/>
 					</div>
 					<div class="mt-4 flex justify-between">
 						<div>
 							<h3 class="text-base text-cyan-800">
-								<a href="/shop/product/epp-xps30-200-texnopleks-118058050-l">
+								<a href="/shop/products/kley-dlya-plitki">
 									<span aria-hidden="true" class="absolute inset-0" />
-									Пенополистирол
+									Клей для плитки
 								</a>
 							</h3>
-							<p class="mt-1 text-sm text-gray-500">Эпп xps30-200 техноплекс 1180*580*50-l</p>
+							<p class="mt-1 text-sm text-gray-500">Клей для плитки "кнауф" флизенклебер (25 кг)</p>
 						</div>
-						<p class="text-xl font-medium text-gray-900">300₽</p>
+						<p class="text-xl font-medium text-gray-900">465₽</p>
 					</div>
 				</div>
 
@@ -207,7 +207,7 @@
 						class="min-h-80 aspect-w-1 aspect-h-1 lg:aspect-none w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 shadow-lg shadow-cyan-900 group-hover:opacity-75 lg:h-80"
 					>
 						<img
-							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png"
+							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png"
 							alt=""
 							class="h-full w-full object-contain object-center lg:h-full lg:w-full"
 						/>
@@ -220,11 +220,9 @@
 									Штукатурка
 								</a>
 							</h3>
-							<p class="mt-1 text-sm text-gray-500">
-								Штукатурная смесь "ек" tт 30 фасадная (25 кг)
-							</p>
+							<p class="mt-1 text-sm text-gray-500">Штукатурная смесь "ек" tg 40 (30 кг)</p>
 						</div>
-						<p class="text-xl font-medium text-gray-900">330₽</p>
+						<p class="text-xl font-medium text-gray-900">451₽</p>
 					</div>
 				</div>
 
@@ -233,7 +231,7 @@
 						class="min-h-80 aspect-w-1 aspect-h-1 lg:aspect-none w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 shadow-lg shadow-cyan-900 group-hover:opacity-75 lg:h-80"
 					>
 						<img
-							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/2728.jpg"
+							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/38526.jpg"
 							alt=""
 							class="h-full w-full object-contain object-center lg:h-full lg:w-full"
 						/>
@@ -241,16 +239,14 @@
 					<div class="mt-4 flex justify-between">
 						<div>
 							<h3 class="text-base text-cyan-800">
-								<a href="/shop/product/epp-xps30-200-texnopleks-118058050-l">
+								<a href="/shop/products/germetik">
 									<span aria-hidden="true" class="absolute inset-0" />
-									Профиля
+									Герметик
 								</a>
 							</h3>
-							<p class="mt-1 text-sm text-gray-500">
-								Профиль направляющий 27/28 толщ. 0,4 мм (3 м)
-							</p>
+							<p class="mt-1 text-sm text-gray-500">Герметик санитарный белый "церезит" cs15</p>
 						</div>
-						<p class="text-xl font-medium text-gray-900">96₽</p>
+						<p class="text-xl font-medium text-gray-900">245₽</p>
 					</div>
 				</div>
 
@@ -259,7 +255,7 @@
 						class="min-h-80 aspect-w-1 aspect-h-1 lg:aspect-none w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 shadow-lg shadow-cyan-900 group-hover:opacity-75 lg:h-80"
 					>
 						<img
-							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6027.jpg"
+							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B2%D0%B5%D1%82.jpg"
 							alt=""
 							class="h-full w-full object-contain object-center lg:h-full lg:w-full"
 						/>
@@ -267,14 +263,14 @@
 					<div class="mt-4 flex justify-between">
 						<div>
 							<h3 class="text-base text-cyan-800">
-								<a href="/shop/product/epp-xps30-200-texnopleks-118058050-l">
+								<a href="/shop/products/shpaklevka">
 									<span aria-hidden="true" class="absolute inset-0" />
-									Профиля
+									Шпаклевка
 								</a>
 							</h3>
-							<p class="mt-1 text-sm text-gray-500">Профиль потолочный 60/27 толщ. 0,4 мм (3 м)</p>
+							<p class="mt-1 text-sm text-gray-500">Шпаклевка финишная "ветонит lr+" (20 кг)</p>
 						</div>
-						<p class="text-xl font-medium text-gray-900">120₽</p>
+						<p class="text-xl font-medium text-gray-900">920₽</p>
 					</div>
 				</div>
 			</div>
