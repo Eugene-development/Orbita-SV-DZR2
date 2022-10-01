@@ -821,7 +821,7 @@
 				</h2>
 				<img
 					class="inset-0 mt-2 h-64 w-full  object-cover"
-					src="https://s.gobalakovo.ru/section/catalogpagesintext/upload/images/catalog/intext/000/050/837/007_5cf3e36d0ecce.jpg"
+					src="https://storage.yandexcloud.net/brand-logo/orbita/main-bg.jpeg"
 					alt="база строительных материалов"
 				/>
 
