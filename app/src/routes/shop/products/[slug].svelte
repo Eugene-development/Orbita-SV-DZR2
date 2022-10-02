@@ -197,6 +197,7 @@
 									</button>
 								{/if}
 							</div>
+
 							<div class="-ml-px flex w-0 flex-1">
 								<!--                        <div v-if="productsInCart.some(arrVal => productID.id === arrVal)" class="-ml-px w-0 flex-1 flex">-->
 								<!--                <div class="relative mx-8 flex-1 inline-flex items-center justify-center text-sm text-slate-700 font-medium border  border-transparent rounded-bl-lg hover:text-slate-500">-->
