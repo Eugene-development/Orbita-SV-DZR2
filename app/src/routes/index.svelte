@@ -43,9 +43,10 @@
 			<div class="mx-auto w-full max-w-7xl py-16 text-center lg:py-32 lg:text-left">
 				<div class="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
 					<h1
-						class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl"
+						class="text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl"
 					>
-						<span class="block xl:inline">Срочно требуются</span>
+						<span class="block xl:inline">В связи с расширением компании срочно требуются</span>
+						<br />
 						<span class="block text-cyan-800 xl:inline">грузчики на склад</span>
 					</h1>
 					<p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
