@@ -172,7 +172,7 @@
 				обратите внимание
 			</h2>
 			<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-5xl">
-				Сезонные товары
+				Актуальные товары
 			</h3>
 		</div>
 	</div>
@@ -192,7 +192,7 @@
 					<div class="mt-4 flex justify-between">
 						<div>
 							<h3 class="text-base text-cyan-800">
-								<a href="/shop/products/kley-dlya-plitki">
+								<a href="shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg">
 									<span aria-hidden="true" class="absolute inset-0" />
 									Клей для плитки
 								</a>
@@ -232,7 +232,7 @@
 						class="min-h-80 aspect-w-1 aspect-h-1 lg:aspect-none w-full overflow-hidden rounded-md bg-gradient-to-br from-cyan-800 to-cyan-700 shadow-lg shadow-cyan-900 group-hover:opacity-75 lg:h-80"
 					>
 						<img
-							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/38526.jpg"
+							src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg"
 							alt=""
 							class="h-full w-full object-contain object-center lg:h-full lg:w-full"
 						/>
@@ -240,14 +240,14 @@
 					<div class="mt-4 flex justify-between">
 						<div>
 							<h3 class="text-base text-cyan-800">
-								<a href="/shop/products/germetik">
+								<a href="/shop/product/gvlv-knauf-10-mm-12002500">
 									<span aria-hidden="true" class="absolute inset-0" />
-									Герметик
+									ГВЛВ
 								</a>
 							</h3>
-							<p class="mt-1 text-sm text-gray-500">Герметик санитарный белый "церезит" cs15</p>
+							<p class="mt-1 text-sm text-gray-500">Гвлв "кнауф" 10 мм (1200*2500)</p>
 						</div>
-						<p class="text-xl font-medium text-gray-900">245₽</p>
+						<p class="text-xl font-medium text-gray-900">675₽</p>
 					</div>
 				</div>
 
@@ -264,14 +264,14 @@
 					<div class="mt-4 flex justify-between">
 						<div>
 							<h3 class="text-base text-cyan-800">
-								<a href="/shop/products/shpaklevka">
+								<a href="/shop/product/spaklevka-finisnaya-vetonit-lr-20-kg">
 									<span aria-hidden="true" class="absolute inset-0" />
 									Шпаклевка
 								</a>
 							</h3>
 							<p class="mt-1 text-sm text-gray-500">Шпаклевка финишная "ветонит lr+" (20 кг)</p>
 						</div>
-						<p class="text-xl font-medium text-gray-900">920₽</p>
+						<p class="text-xl font-medium text-gray-900">865₽</p>
 					</div>
 				</div>
 			</div>
