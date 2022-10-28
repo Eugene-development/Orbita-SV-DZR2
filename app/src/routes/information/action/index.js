@@ -35,12 +35,12 @@ const actions = [
 	//     description: 'Предложение ограничено',
 	//     link: '/shop/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
 	// },
-	// {
-	// 	action: 'Утеплитель технониколь роклайт 1200*600*50',
-	// 	price: '752 рубля',
-	// 	description: 'Только в эти выходные',
-	// 	link: '/shop/product/uteplitel-texnonikol-roklait-120060050'
-	// },
+	{
+		action: 'Утеплитель технониколь роклайт 1200*600*50',
+		price: '720 рубля',
+		description: 'Только в эти выходные',
+		link: '/shop/product/uteplitel-texnonikol-roklait-120060050'
+	},
 	// {
 	// 	action: 'Утеплитель технониколь роклайт 1200*600*100',
 	// 	price: '1190 рубля',

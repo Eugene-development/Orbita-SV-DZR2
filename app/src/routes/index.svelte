@@ -50,7 +50,7 @@
 						<span class="block text-cyan-800 xl:inline">грузчики на склад</span>
 					</h1>
 					<p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-						ЗП - 25000 рублей плюс премия
+						ЗП - 28000 рублей плюс премия
 					</p>
 					<p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
 						График 5х2 <br />
