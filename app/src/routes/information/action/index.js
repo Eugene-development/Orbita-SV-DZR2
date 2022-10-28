@@ -37,7 +37,7 @@ const actions = [
 	// },
 	{
 		action: 'Утеплитель технониколь роклайт 1200*600*50',
-		price: '720 рубля',
+		price: '720 рублей',
 		description: 'Только в эти выходные',
 		link: '/shop/product/uteplitel-texnonikol-roklait-120060050'
 	},
