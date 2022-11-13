@@ -55,11 +55,15 @@
 </svelte:head>
 
 <div>
-	<!--    <div class="p-10 mx-auto sm:px-6 lg:px-8 bg-gradient-to-r from-slate-50 via-white to-slate-50 shadow-md shadow-slate-200/50 mb-4">-->
-	<!--        <div class="flex flex-col text-center w-full">-->
-	<!--            <h1 class=" text-4xl font-medium title-font text-slate-900">{ nameRubric } в Нижнем Новгороде</h1>-->
-	<!--        </div>-->
-	<!--    </div>-->
+	<div
+		class="mx-auto  mb-4 bg-gradient-to-r from-gray-50 via-white to-gray-50 p-10 shadow-md shadow-gray-200/50 sm:px-6 lg:px-8"
+	>
+		<div class="flex w-full flex-col text-center">
+			<h2 class=" title-font text-4xl font-medium text-cyan-900">
+				{nameRubric} в Дзержинске
+			</h2>
+		</div>
+	</div>
 
 	<div class="  ">
 		<!--        <div class="flex w-1/3 max-w-sm flex-col flex-grow border-r border-slate-200 pt-8 pb-4 overflow-y-auto hidden xl:block">-->
