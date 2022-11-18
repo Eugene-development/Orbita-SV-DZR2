@@ -40,13 +40,19 @@
 		<main class="lg:relative">
 			<div class="mx-auto w-full max-w-7xl py-16 text-center lg:py-32 lg:text-left">
 				<div class="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
-					<h1
-						class="text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl"
-					>
-						<span class="block xl:inline">Штукатурная смесь</span>
+					<h1 class="text-3xl font-bold tracking-tight text-gray-900 ">
+						<span class="block sm:text-4xl md:text-5xl lg:text-4xl xl:inline xl:text-5xl"
+							>Штукатурная смесь</span
+						>
 						<br />
-						<span class="block text-cyan-800 xl:inline">"Кнауф ротбанд" белая</span>
+						<br />
+						<span class="block text-cyan-900 md:text-5xl lg:text-4xl xl:inline xl:text-5xl"
+							>"KNAUF ROTBAND"</span
+						>
 					</h1>
+					<p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
+						Цвет - белый
+					</p>
 					<p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
 						Вес - 30 кг
 					</p>
@@ -187,7 +193,7 @@
 							class="h-full w-full object-contain object-center lg:h-full lg:w-full"
 						/>
 					</div>
-					<div class="mt-4 flex justify-between">
+					<div class="mt-5 flex justify-between">
 						<div>
 							<h3 class="text-base text-cyan-800">
 								<a href="shop/product/klei-dlya-plitki-knauf-flizenkleber-25-kg">
@@ -211,7 +217,7 @@
 							class="h-full w-full object-contain object-center lg:h-full lg:w-full"
 						/>
 					</div>
-					<div class="mt-4 flex justify-between">
+					<div class="mt-5 flex justify-between">
 						<div>
 							<h3 class="text-base text-cyan-800">
 								<a href="/shop/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg">
@@ -235,7 +241,7 @@
 							class="h-full w-full object-contain object-center lg:h-full lg:w-full"
 						/>
 					</div>
-					<div class="mt-4 flex justify-between">
+					<div class="mt-5 flex justify-between">
 						<div>
 							<h3 class="text-base text-cyan-800">
 								<a href="/shop/product/gvlv-knauf-10-mm-12002500">
@@ -259,7 +265,7 @@
 							class="h-full w-full object-contain object-center lg:h-full lg:w-full"
 						/>
 					</div>
-					<div class="mt-4 flex justify-between">
+					<div class="mt-5 flex justify-between">
 						<div>
 							<h3 class="text-base text-cyan-800">
 								<a href="/shop/product/spaklevka-finisnaya-vetonit-lr-20-kg">
