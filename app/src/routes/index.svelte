@@ -30,11 +30,9 @@
 <div class="">
 	<div class="my-12 ml-8 text-center text-base">
 		<div>
-			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">
-				Важная информация
-			</h2>
+			<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">Товар месяца</h2>
 			<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-5xl">
-				Наши вакансии
+				Ноябрь-Декабрь
 			</h3>
 		</div>
 	</div>
@@ -45,28 +43,28 @@
 					<h1
 						class="text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl"
 					>
-						<span class="block xl:inline">В связи с расширением компании срочно требуются</span>
+						<span class="block xl:inline">Штукатурная смесь</span>
 						<br />
-						<span class="block text-cyan-800 xl:inline">грузчики на склад</span>
+						<span class="block text-cyan-800 xl:inline">"Кнауф ротбанд" белая</span>
 					</h1>
 					<p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-						ЗП - 28000 рублей плюс премия
+						Вес - 30 кг
 					</p>
 					<p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-						График 5х2 <br />
+						Цена - 460 рублей <br />
 					</p>
 					<p class="mx-auto mt-3 max-w-md text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-						Рабочий день с 8 до 17-30
+						Количество - уточняйте <br />
 					</p>
 					<p
 						class="mx-auto mt-3 max-w-md text-lg font-semibold text-gray-500 sm:text-2xl md:mt-5 md:max-w-3xl"
 					>
-						8 (8313) 31-02-28
+						8 (902) 303-36-54 (Эля)
 					</p>
 					<p
 						class="mx-auto mt-3 max-w-md text-lg font-semibold text-gray-500 sm:text-2xl md:mt-5 md:max-w-3xl"
 					>
-						8 (952) 765-79-45
+						8 (930) 688-88-62 (Юля)
 					</p>
 				</div>
 			</div>
@@ -75,7 +73,7 @@
 			>
 				<img
 					class="absolute inset-0 h-full w-full object-cover"
-					src="https://sc01.alicdn.com/kf/H32d548424fea4ed3af05de444ffa34362/977903705/H32d548424fea4ed3af05de444ffa34362.jpg"
+					src="https://www.astmnsk.ru/image/cache/data/band2-600x315.jpg"
 					alt="работа у нас"
 				/>
 			</div>

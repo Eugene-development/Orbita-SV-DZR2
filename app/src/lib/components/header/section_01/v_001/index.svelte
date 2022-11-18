@@ -840,7 +840,7 @@
 		/> -->
 
 		{#if $buttonVisibleCatalog}
-			<div class="mt-4 bg-white pb-4 sm:pb-8">
+			<div class="mt-4 bg-white pb-4 sm:pb-6">
 				<div class="relative">
 					<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
 					<!--                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div>-->
@@ -889,7 +889,7 @@
 				</div>
 			</div>
 		{:else}
-			<div class="mt-4 bg-white pb-4 sm:pb-8">
+			<div class="mt-4 bg-white pb-4 sm:pb-6">
 				<div class="relative">
 					<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
 					<!--                <div class="absolute inset-0 h-1/2 bg-gradient-to-r from-gray-200 via-slate-100 to-gray-200 border-b border-slate-200"></div>-->
