@@ -112,7 +112,7 @@
 					> -->
 					<span class="md:hidden">Организуем доставку до объекта</span>
 					<span class="hidden md:inline">
-						Доставка стройматериалов по Нижнему Новгороду до объекта в удобное время.</span
+						Доставка стройматериалов в Дзержинске до объекта в удобное время.</span
 					>
 					<!-- <span class="block sm:ml-2 sm:inline-block">
 						<a href="/information/action" class="font-bold text-white underline">
