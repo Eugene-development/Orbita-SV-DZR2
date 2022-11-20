@@ -110,9 +110,9 @@
 					<span class="hidden md:inline">
 						Спецпредложение. Только в эти дни!!! Специальные цены на утеплитель от 725р.</span
 					> -->
-					<span class="md:hidden">На склад в г. Дзержинск срочно требуются грузчики.</span>
+					<span class="md:hidden">Организуем доставку до объекта</span>
 					<span class="hidden md:inline">
-						В связи с расширением компании срочно требуются грузчики на склад.</span
+						Доставка стройматериалов по Нижнему Новгороду до объекта в удобное время.</span
 					>
 					<!-- <span class="block sm:ml-2 sm:inline-block">
 						<a href="/information/action" class="font-bold text-white underline">
